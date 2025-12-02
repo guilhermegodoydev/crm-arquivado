@@ -19,13 +19,31 @@ function calcularIdade(dataNascimento) {
     return idade;
 }
 
+function calcularTempoComoCliente(dataCriacao) {
+    const diferencaDatas = Date.now() - new Date(dataCriacao).getTime();
+    const diferencaDias = Math.floor(diferencaDatas / 86400000);
+
+    if (diferencaDias === 0) return "Cadastrado Hoje";
+    if (diferencaDias === 1) return "Cadastrado Ontem";
+    if (diferencaDias < 30) return `Cadastrado a ${diferencaDias} dias`;
+
+    const meses = Math.floor(diferencaDias / 30);
+    if (meses === 1 ) return "Cliente há 1 mês";
+    if (meses < 12 ) return `Cliente há ${meses}`;
+
+    const anos = Math.floor(diferencaDias / 365);
+    return anos === 1 ? "Cliente há 1 ano" : `Cliente há ${anos} anos`
+}
+
 function normalizarCliente(cliente) {
     const atividadesOrdenadas = ordenar(cliente.atividades, "data", "number");
     const atividadeMaisRecente = atividadesOrdenadas[0].data;
+
     return {
         ...cliente,
         idade: calcularIdade(cliente.dataNascimento),
-        ultimoContato: atividadeMaisRecente
+        ultimoContato: atividadeMaisRecente,
+        tempo: calcularTempoComoCliente(cliente.dataCriacao),
     };
 }
 
