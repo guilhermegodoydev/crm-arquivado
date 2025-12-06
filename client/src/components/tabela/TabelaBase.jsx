@@ -1,5 +1,5 @@
 import { CabecalhoOrdenavel } from "./CabecalhoOrdenavel.jsx";
-import { ordenar } from "../../utils/ordenar.js";
+import { ordenar } from "../../helpers/ordenar.js";
 import { useMemo, useState } from "react";
 
 export function Tabela({dadosTabela, colunas}) {

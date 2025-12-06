@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { useFetch } from "../helpers/useFetch";
-import { useLocalStorage } from "../helpers/useLocalStorage";
+import { useFetch } from "../utils/useFetch";
+import { useLocalStorage } from "../utils/useLocalStorage";
 
 export function useLead() {
     const { dados: mock, carregando, erro } = useFetch("/mock/leads.json");

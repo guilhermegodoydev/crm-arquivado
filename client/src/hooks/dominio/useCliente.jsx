@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 
-import { useFetch } from "../helpers/useFetch";
-import { useLocalStorage } from "../helpers/useLocalStorage";
-import { ordenar } from "../../utils/ordenar";
+import { useFetch } from "../utils/useFetch";
+import { useLocalStorage } from "../utils/useLocalStorage";
+import { ordenar } from "../../helpers/ordenar";
 
 function calcularIdade(dataNascimento) {
     if (!dataNascimento) return null;

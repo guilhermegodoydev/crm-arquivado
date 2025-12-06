@@ -6,8 +6,8 @@ import { Filtro } from "../../components/Filtro";
 import { Tabela } from "../../components/tabela/TabelaBase";
 import { BarraBusca } from "../../components/BarraBusca";
 
-import { filtrar } from "../../utils/filtrar"
-import { buscar } from "../../utils/buscar";
+import { filtrar } from "../../helpers/filtrar"
+import { buscar } from "../../helpers/buscar";
 
 import { useCliente } from "../../hooks/dominio/useCliente";
 import { useMediaQuery } from "react-responsive";

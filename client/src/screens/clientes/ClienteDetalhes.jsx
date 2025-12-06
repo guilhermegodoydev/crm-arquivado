@@ -11,7 +11,7 @@ import { HeaderDetalhesCliente } from "../../components/HeaderDetalhesCliente";
 
 import { useCliente } from "../../hooks/dominio/useCliente";
 import { useAlerta } from "../../context/AlertaContexto";
-import { filtrar } from "../../utils/filtrar";
+import { filtrar } from "../../helpers/filtrar";
 import { useMediaQuery } from "react-responsive";
 import { CardAtividade } from "../../components/cards/CardAtividade";
 import { FormAtividade } from "../../components/FormAtividade";

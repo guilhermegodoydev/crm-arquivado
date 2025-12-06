@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { ExRequisicao } from "../../utils/api";
+import { ExRequisicao } from "../../helpers/api";
 
 export function useFetch(url, opcoes = {}, parametros = {}) {
     const [ dados, setDados ] = useState();
