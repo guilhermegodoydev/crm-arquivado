@@ -3,7 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import { GraficoBarras } from "../components/graficos/GraficoBarras";
 import { GraficoLinhas } from "../components/graficos/GraficoLinhas";
 import { GraficoPizza} from "../components/graficos/GraficoPizza";
-import { CardMetrica } from "../components/CardMetrica";
+import { CardMetrica } from "../components/cards/CardMetrica";
 
 import { useFetch } from "../hooks/helpers/useFetch";
 
