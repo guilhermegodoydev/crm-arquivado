@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 
-import { Card } from "../Card";
+import { CardBase } from "../CardBase";
 import { useMediaQuery } from "react-responsive";
 
 export function DetailsViewer({ editando, campos, onSalvar, onCancelar }) {
@@ -31,7 +31,7 @@ export function DetailsViewer({ editando, campos, onSalvar, onCancelar }) {
     };
 
     return (
-        <Card className="col-span-2"> 
+        <CardBase className="col-span-2"> 
             <h1 className="text-2xl mb-4">Informações</h1>
 
             <form onSubmit={salvar} className="flex flex-col lg:grid grid-cols-2 grid-rows-auto gap-5">
@@ -126,6 +126,6 @@ export function DetailsViewer({ editando, campos, onSalvar, onCancelar }) {
                     </div>
                 )}
             </form>
-        </Card>
+        </CardBase>
     );
 }

@@ -1,9 +1,9 @@
 import { Trash2 } from "lucide-react";
-import { Card } from "./Card";
+import { CardBase } from "./CardBase";
 
 export function CardAtividade({id, data, tipo, descricao, onDeletar}) {
     return (
-        <Card className="flex items-start justify-between">
+        <CardBase className="flex items-start justify-between">
             <div>
                 <h1 className="font-semibold text-xl">Descrição:</h1>
                 <p>{descricao}</p>
@@ -14,6 +14,6 @@ export function CardAtividade({id, data, tipo, descricao, onDeletar}) {
             <button onClick={() => onDeletar(id)}>
                 <Trash2 className="inline text-gray-700"/>
             </button>
-        </Card>
+        </CardBase>
     );
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Plus, Pen, Trash2 } from "lucide-react";
 
-import { Card } from "../Card";
+import { CardBase } from "../CardBase";
 
 export function NotasViewer({ notas, onSalvar, onExcluir }) {
     const [ editando, setEditando ] = useState({ 
@@ -69,7 +69,7 @@ export function NotasViewer({ notas, onSalvar, onExcluir }) {
     );
 
     return (
-        <Card className="relative col-span-1">
+        <CardBase className="relative col-span-1">
             <div className="flex items-center justify-between mb-4">
                 <h1 className="text-2xl">Notas e Lembretes</h1>
                 <button
@@ -144,6 +144,6 @@ export function NotasViewer({ notas, onSalvar, onExcluir }) {
                     </div>
                 }
             </form>
-        </Card>
+        </CardBase>
     );
 }

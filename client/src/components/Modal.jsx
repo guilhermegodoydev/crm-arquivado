@@ -1,5 +1,5 @@
 import { createPortal } from "react-dom";
-import { Card } from "./Card";
+import { CardBase } from "./CardBase";
 import { X } from "lucide-react";
 
 export function Modal({ titulo, mensagem, className = "", children , aberto, onFechar }) {
@@ -10,7 +10,7 @@ export function Modal({ titulo, mensagem, className = "", children , aberto, onF
 
     return createPortal(
         <div className="fixed inset-0 z-50 bg-gray-700/80 flex items-center justify-center">
-            <Card className={`relative w-100 bg-white ${className}`}>
+            <CardBase className={`relative w-100 bg-white ${className}`}>
                 <div className="flex justify-between items-center">
                     <h2>{titulo ?? 'Aviso'}</h2>
                     <X onClick={onFechar} className="cursor-pointer" />
@@ -25,7 +25,7 @@ export function Modal({ titulo, mensagem, className = "", children , aberto, onF
                 }
 
                 {children}
-            </Card>
+            </CardBase>
         </div>,
         modalRoot
     );
