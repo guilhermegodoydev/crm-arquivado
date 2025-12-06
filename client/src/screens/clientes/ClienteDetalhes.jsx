@@ -15,6 +15,7 @@ import { filtrar } from "../../utils/filtrar";
 import { useMediaQuery } from "react-responsive";
 import { CardAtividade } from "../../components/cards/CardAtividade";
 import { FormAtividade } from "../../components/FormAtividade";
+import { useModal } from "../../hooks/ui/useModal";
 
 export function ClienteDetalhes() {
     const { id } = useParams();
@@ -23,7 +24,7 @@ export function ClienteDetalhes() {
     const { exibirAlerta } = useAlerta();
     const isMobile = useMediaQuery({ maxWidth: 1023 });
 
-    const [ modal, setModal ] = useState({});
+    const { modal, abrir: abrirModal, fechar: fecharModal, atualizar: atualizarModal, confirmarAcao } = useModal();
     const [ editandoDados, setEditandoDados ] = useState(false);
     const [ dadosCliente, setDadosCliente ] = useState({});
     const navigate = useNavigate();
@@ -107,16 +108,15 @@ export function ClienteDetalhes() {
     };
     
     const confirmarExcluirAtividade = (idAtividade) => {
-        setModal({
+        abrirModal({
             acao: () => excluirAtividade(idAtividade),
             aberto: true,
-            mensagem: "Tem certeza que deseja excluir esse registro?"
+            mensagem: "Tem certeza que deseja excluir esse registro?",
         });
     }
     
     const excluirAtividade = (idAtividade) => {
         const atividadesNovas = dadosCliente.atividades.filter(a => a.id != idAtividade);
-        console.log(atividadesNovas);
         const ultimoContato = atividadesNovas.length > 0 ? atividadesNovas[0].data : "Nenhuma atividade registrada";
 
         setDadosCliente(prev => ({
@@ -129,7 +129,8 @@ export function ClienteDetalhes() {
             atividades: atividadesNovas,
             ultimoContato: ultimoContato
         });
-        setModal({acao: null, aberto: false, mensagem: ""});
+
+        fecharModal();
     };
     
     const confirmarCriarAtividade = (e) => {
@@ -140,7 +141,7 @@ export function ClienteDetalhes() {
         atividade.id = crypto?.randomUUID?.() ?? `${Date.now()}-${Math.random()}`;
         salvarAtividade(id, atividade);
         
-        setModal({aberto: false, acao: null});
+        fecharModal();
         setDadosCliente(prev => ({
             ...prev,
             atividades: [atividade, ...(prev.atividades || [])]
@@ -149,23 +150,32 @@ export function ClienteDetalhes() {
     };
     
     const criarAtividade = () => {
-        setModal({
+        abrirModal({
             aberto: true,
             acao: null,
-            children: <FormAtividade onSalvar={(e) => confirmarCriarAtividade(e)} onFechar={() => setModal({acao: null, aberto: false})}/>
+            children: <FormAtividade 
+                onSalvar={(e) => confirmarCriarAtividade(e)} 
+                onFechar={fecharModal}
+            />,
         });
     };
     
+    const excluirUsuario = () => {
+        remover(id);
+        navigate("/clientes");
+        exibirAlerta(`Cliente ${dadosCliente.nome} excluído com sucesso`,"sucesso");
+    };
+
     const confirmarExcluirUsuario = () => {
-        setModal({acao : () => {
-            remover(id);
-            navigate("/clientes");
-            exibirAlerta(`Cliente ${dadosCliente.nome} excluído com sucesso`,"sucesso");
-        }, aberto: true, mensagem: `Tem certeza que deseja excluir ${dadosCliente.nome}`});
+        abrirModal({
+            acao: excluirUsuario,
+            aberto: true,
+            mensagem: `Tem certeza que deseja excluir ${dadosCliente.nome}`,
+        });
     };
 
     const removerNota = (notaId) => {
-        setModal({acao: null, aberto: false, mensagem: ""});
+        fecharModal();
         
         setDadosCliente(prev => ({
             ...prev,
@@ -176,9 +186,9 @@ export function ClienteDetalhes() {
     };
 
     const confirmarExcluirNota = (notaId) => {
-        setModal({
-            acao: () => removerNota(notaId), 
-            aberto: true, 
+        abrirModal({
+            acao: () => removerNota(notaId),
+            aberto: true,
             mensagem: "Tem certeza que deseja excluir essa nota? Essa ação não pode ser revertida."
         });
     };
@@ -215,7 +225,7 @@ export function ClienteDetalhes() {
         <>
             <Modal 
                 aberto={modal.aberto} 
-                onFechar={() => setModal({aberto: false, acao: null})} 
+                onFechar={fecharModal} 
                 mensagem={modal.mensagem}
                 titulo={modal.titulo}
             >
@@ -223,8 +233,8 @@ export function ClienteDetalhes() {
                     modal.children
                     :
                     <div className="flex gap-3">
-                        <button className="bg-green-300 p-2 rounded-sm w-1/2" onClick={modal.acao}>Confirmar</button>
-                        <button className="bg-red-300 p-2 rounded-sm w-1/2" onClick={() => setModal({acao: null, aberto: false})}>Cancelar</button>
+                        <button className="bg-green-300 p-2 rounded-sm w-1/2" onClick={confirmarAcao}>Confirmar</button>
+                        <button className="bg-red-300 p-2 rounded-sm w-1/2" onClick={fecharModal}>Cancelar</button>
                     </div>
                 }
             </Modal>
