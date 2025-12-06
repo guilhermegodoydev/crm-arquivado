@@ -13,17 +13,12 @@ import { useCliente } from "../../hooks/dominio/useCliente";
 import { useAlerta } from "../../context/AlertaContexto";
 import { filtrar } from "../../utils/filtrar";
 import { useMediaQuery } from "react-responsive";
-import { CardAtividade } from "../../components/CardAtividade";
-
-const tipoAtividades = [
-    { key: "ligacao", label: "Ligação"},
-    { key: "email", label: "Email"},
-    { key: "reuniao", label: "Reunião"}
-];
+import { CardAtividade } from "../../components/cards/CardAtividade";
+import { FormAtividade } from "../../components/FormAtividade";
 
 export function ClienteDetalhes() {
     const { id } = useParams();
-    const { carregando, erro, buscar, atualizar, remover, editarNota: edNota, salvarNota: slNota, removerNota: rmNota, salvarAtividade, removerAtividade } = useCliente();
+    const { carregando, erro, buscar, atualizar, remover, editarNota: edNota, salvarNota: slNota, removerNota: rmNota, salvarAtividade } = useCliente();
     const [ cliente, setCliente ] = useState(null);
     const { exibirAlerta } = useAlerta();
     const isMobile = useMediaQuery({ maxWidth: 1023 });
@@ -154,44 +149,10 @@ export function ClienteDetalhes() {
     };
     
     const criarAtividade = () => {
-        const maxData = new Date().toISOString().split("T")[0];
-        
         setModal({
             aberto: true,
             acao: null,
-            titulo: "Criar nova atividade",
-            children: 
-            <form onSubmit={(e) => confirmarCriarAtividade(e)} className="space-y-3">
-                <div className="mt-3">
-                    <label htmlFor="data">Data:</label>
-                    <input type="date" max={maxData} name="data" id="data" className="border rounded-md px-1 ml-5" required/>
-                </div>
-
-                <div>
-                    <label htmlFor="tipo">Tipo:</label>
-                    <select name="tipo" id="tipo" className="border rounded-md px-1 min-w-[38%] ml-5" required>
-                        {tipoAtividades.map( opt => (
-                            <option key={`opcao-${opt.key}`} value={opt.key}>{opt.label}</option>
-                        ))}
-                    </select>
-                </div>
-
-                <div>
-                    <label htmlFor="descricao" className="block">Descrição:</label>
-                    <textarea 
-                        id="descricao" 
-                        name="descricao" 
-                        className="resize-none mb-2 border rounded-md px-2 block w-full" 
-                        placeholder="Discussão sobre integrações..."
-                        required
-                        ></textarea>
-                </div>
-
-                <div className="flex gap-3">
-                    <button className="bg-green-300 p-2 rounded-sm w-1/2" type="submit">Confirmar</button>
-                    <button className="bg-red-300 p-2 rounded-sm w-1/2" type="button" onClick={() => setModal({acao: null, aberto: false})}>Cancelar</button>
-                </div>
-            </form>
+            children: <FormAtividade onSalvar={(e) => confirmarCriarAtividade(e)} onFechar={() => setModal({acao: null, aberto: false})}/>
         });
     };
     
