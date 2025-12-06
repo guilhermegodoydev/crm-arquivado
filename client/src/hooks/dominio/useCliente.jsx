@@ -37,7 +37,7 @@ function calcularTempoComoCliente(dataCriacao) {
 
 function normalizarCliente(cliente) {
     const atividadesOrdenadas = ordenar(cliente.atividades, "data", "number");
-    const atividadeMaisRecente = atividadesOrdenadas[0].data;
+    const atividadeMaisRecente = atividadesOrdenadas.length > 0 ? atividadesOrdenadas[0].data : "Nenhuma atividade registrada";
 
     return {
         ...cliente,
