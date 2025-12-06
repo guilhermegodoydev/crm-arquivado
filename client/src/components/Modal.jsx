@@ -1,5 +1,5 @@
 import { createPortal } from "react-dom";
-import { CardBase } from "./CardBase";
+import { CardBase } from "./cards/CardBase";
 import { X } from "lucide-react";
 
 export function Modal({ titulo, mensagem, className = "", children , aberto, onFechar }) {

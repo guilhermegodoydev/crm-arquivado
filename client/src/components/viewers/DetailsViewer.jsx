@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 
-import { CardBase } from "../CardBase";
+import { CardBase } from "../cards/CardBase";
 import { useMediaQuery } from "react-responsive";
 
 export function DetailsViewer({ editando, campos, onSalvar, onCancelar }) {
