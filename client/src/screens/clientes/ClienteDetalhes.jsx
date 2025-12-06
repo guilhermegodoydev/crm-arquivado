@@ -120,11 +120,20 @@ export function ClienteDetalhes() {
     }
     
     const excluirAtividade = (idAtividade) => {
+        const atividadesNovas = dadosCliente.atividades.filter(a => a.id != idAtividade);
+        console.log(atividadesNovas);
+        const ultimoContato = atividadesNovas.length > 0 ? atividadesNovas[0].data : "Nenhuma atividade registrada";
+
         setDadosCliente(prev => ({
             ...prev,
-            atividades: prev.atividades.filter(a => a.id != idAtividade)
+            atividades: atividadesNovas,
+            ultimoContato: ultimoContato
         }));
-        removerAtividade(id, idAtividade);
+        atualizar(id, {
+            ...dadosCliente,
+            atividades: atividadesNovas,
+            ultimoContato: ultimoContato
+        });
         setModal({acao: null, aberto: false, mensagem: ""});
     };
     
