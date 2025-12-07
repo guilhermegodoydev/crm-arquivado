@@ -2,29 +2,29 @@ import { useEffect } from "react";
 
 import { useFetch } from "../utils/useFetch";
 import { useLocalStorage } from "../utils/useLocalStorage";
-import { obterUltimoContatoCliente, calcularTempoComoCliente } from "../../services/cliente_service";
-import { calcularIdade } from "../../helpers/calcularIdade";
+import { obterUltimoContatoCliente } from "../../services/cliente_service";
+import { normalizarCliente } from "../../services/cliente_service";
+import { useConfigsUsuario } from "../../context/ConfigsUsuario";
 
-function normalizarCliente(cliente) {
-    return {
-        ...cliente,
-        idade: calcularIdade(cliente.dataNascimento),
-        ultimoContato: obterUltimoContatoCliente(cliente.atividades),
-        tempo: calcularTempoComoCliente(cliente.dataCriacao),
-    };
-}
 
 export function useCliente() {
     const { dados: mock, carregando, erro } = useFetch("/mock/clientes.json");
     const [ clientes, setClientes ] = useLocalStorage("clientes", []);
+    const { config } = useConfigsUsuario();
 
     useEffect(() => {
         if (!carregando && !erro && clientes.length === 0 && mock) {
-            const normalizados = mock.map(c => normalizarCliente(c));
+            const normalizados = mock.map(c => normalizarCliente(c, config.formatoData));
             setClientes(normalizados);
         }
-    }, [mock, carregando, erro]);
+    }, [mock, carregando, erro, config]);
 
+    useEffect(() => {
+        if (!mock || mock.length === 0) return;
+        const selecionados = mock.slice(0, parseInt(config.qtItensPag));
+        const normalizados = selecionados.map(c => normalizarCliente(c, config.formatoData));
+        setClientes(normalizados);
+    }, [config, mock]);
 
     const criar = (cliente) => {
         const clienteNormalizado = normalizarCliente({

@@ -1,3 +1,6 @@
+import { formatarData } from "../helpers/datas";
+import { calcularIdade } from "../helpers/calcularIdade";
+
 export function obterUltimoContatoCliente(ativiadesCliente) {
     if (ativiadesCliente.length === 0) {
         return "Nenhuma atividade registrada";
@@ -26,4 +29,17 @@ export function calcularTempoComoCliente(dataCriacao) {
 
     const anos = Math.floor(diferencaDias / 365);
     return anos === 1 ? "Cliente há 1 ano" : `Cliente há ${anos} anos`
+}
+
+export function normalizarCliente(cliente, formatoData) {
+    let ultimoContato = obterUltimoContatoCliente(cliente.atividades);    
+    
+    ultimoContato = formatarData(ultimoContato, formatoData);
+
+    return {
+        ...cliente,
+        idade: calcularIdade(cliente.dataNascimento),
+        ultimoContato: ultimoContato,
+        tempo: calcularTempoComoCliente(cliente.dataCriacao),
+    };
 }

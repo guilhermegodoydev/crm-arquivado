@@ -62,7 +62,7 @@
   },
   {
     "id": 3,
-    "nome": "Otávvio Ramos",
+    "nome": "Otávio Ramos",
     "dataNascimento": "1984-01-01",
     "email": "otavio.ramos@biotec.com",
     "telefone": "(31) 98811-8841",
@@ -209,5 +209,1629 @@
       { "id": 1, "data": "2025-01-07", "texto": "Prefere integração rápida e onboarding simplificado." }
     ],
     "resumoRelacionamento": "Perfil dinâmico e orientado à rapidez. Busca soluções práticas, onboarding simples e respostas objetivas. Relacionamento estável e promissor para produtos que reduzem fricção e aceleram implementação."
+  },
+  {
+    "id": 8,
+    "nome": "Carlos Almeida",
+    "dataNascimento": "1985-05-22",
+    "email": "carlos.almeida@xyzsolutions.com",
+    "telefone": "(11) 95533-6777",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2023-06-15",
+    "dataUltimaCompra": "2025-01-10",
+    "valorTotalComprado": 98000,
+    "ticketMedio": 24500,
+    "proximoContato": "2025-02-10",
+    "canalPreferido": "whatsapp",
+    "score": 85,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-09", "tipo": "reunião", "descricao": "Discussão sobre novas funcionalidades" },
+      { "id": 2, "data": "2025-01-02", "tipo": "email", "descricao": "Envio de proposta detalhada" }
+    ],
+    "observacao": "Cliente com forte potencial de crescimento e interesse em novas funcionalidades.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 5,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-07", "texto": "Busca personalização de soluções para atender novos requisitos de negócios." }
+    ],
+    "resumoRelacionamento": "Cliente estratégico com grande potencial de evolução. Gosta de soluções sob medida e tem se mostrado proativo nas negociações. Excelente perfil para contratos de longo prazo."
+  },
+  {
+    "id": 9,
+    "nome": "Mariana Souza",
+    "dataNascimento": "1992-07-10",
+    "email": "mariana.souza@webcorp.com",
+    "telefone": "(21) 98345-7890",
+    "localidade": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "dataCriacao": "2024-02-20",
+    "dataUltimaCompra": "2025-01-22",
+    "valorTotalComprado": 13000,
+    "ticketMedio": 13000,
+    "proximoContato": "2025-02-05",
+    "canalPreferido": "email",
+    "score": 75,
+    "riscoChurn": "médio",
+    "atividades": [
+      { "id": 1, "data": "2025-01-21", "tipo": "email", "descricao": "Confirmação de renovação de contrato" },
+      { "id": 2, "data": "2025-01-10", "tipo": "ligação", "descricao": "Esclarecimento sobre novos pacotes" }
+    ],
+    "observacao": "Em fase de avaliação de novos pacotes.",
+    "tipo": "PF",
+    "categoria": "regular",
+    "negociosFechados": 3,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-10", "texto": "Receptiva à proposta de planos mais avançados." }
+    ],
+    "resumoRelacionamento": "Cliente com bom potencial de retenção. Interesse em pacotes mais robustos e possibilidade de upgrades. Relacionamento saudável e com expectativas de crescimento."
+  },
+  {
+    "id": 10,
+    "nome": "Eduardo Costa",
+    "dataNascimento": "1988-11-05",
+    "email": "eduardo.costa@infraweb.com",
+    "telefone": "(31) 99456-1234",
+    "localidade": { "cidade": "Belo Horizonte", "estado": "MG" },
+    "dataCriacao": "2023-11-01",
+    "dataUltimaCompra": "2025-01-11",
+    "valorTotalComprado": 55000,
+    "ticketMedio": 27500,
+    "proximoContato": "2025-02-10",
+    "canalPreferido": "reunião",
+    "score": 90,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-05", "tipo": "reunião", "descricao": "Apresentação de novos serviços" },
+      { "id": 2, "data": "2025-01-01", "tipo": "email", "descricao": "Envio de material adicional" }
+    ],
+    "observacao": "Interessado em soluções de grande porte.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 6,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-01", "texto": "Em negociação para contrato de longo prazo." }
+    ],
+    "resumoRelacionamento": "Cliente premium com grande potencial de expansão. Está em fase de negociação para contratos mais longos. Interesse em soluções escaláveis e de grande porte. Excelente perfil para manutenção de relacionamento de alto valor."
+  },
+  {
+    "id": 11,
+    "nome": "Bruno Lima",
+    "dataNascimento": "1982-09-14",
+    "email": "bruno.lima@logisticsco.com",
+    "telefone": "(11) 97733-4455",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2023-05-18",
+    "dataUltimaCompra": "2025-01-20",
+    "valorTotalComprado": 15000,
+    "ticketMedio": 15000,
+    "proximoContato": "2025-02-18",
+    "canalPreferido": "reunião",
+    "score": 70,
+    "riscoChurn": "médio",
+    "atividades": [
+      { "id": 1, "data": "2025-01-15", "tipo": "email", "descricao": "Atualização sobre serviços de logística" },
+      { "id": 2, "data": "2025-01-07", "tipo": "ligação", "descricao": "Verificação de novos pacotes" }
+    ],
+    "observacao": "Interessado em soluções para otimização logística.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 3,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Busca soluções para redução de custos com transporte." }
+    ],
+    "resumoRelacionamento": "Cliente interessado em soluções logísticas para otimizar custos. Possui um bom relacionamento, mas precisa de mais personalização nas ofertas."
+  },
+  {
+    "id": 12,
+    "nome": "Amanda Pereira",
+    "dataNascimento": "1990-03-19",
+    "email": "amanda.pereira@biologicsolutions.com",
+    "telefone": "(61) 99888-1122",
+    "localidade": { "cidade": "Brasília", "estado": "DF" },
+    "dataCriacao": "2024-06-05",
+    "dataUltimaCompra": "2025-01-18",
+    "valorTotalComprado": 85000,
+    "ticketMedio": 42500,
+    "proximoContato": "2025-02-20",
+    "canalPreferido": "email",
+    "score": 80,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-10", "tipo": "reunião", "descricao": "Discussão sobre ampliação de contrato" },
+      { "id": 2, "data": "2025-01-02", "tipo": "email", "descricao": "Proposta enviada com novos pacotes" }
+    ],
+    "observacao": "Cliente com interesse em aumentar os negócios em Brasília.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 4,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-07", "texto": "Possibilidade de expansão para outras regiões." }
+    ],
+    "resumoRelacionamento": "Cliente com grande potencial de expansão no mercado nacional. Interesse em aumentar a operação e melhorar o suporte, com foco em uma boa relação custo-benefício."
+  },
+  {
+    "id": 13,
+    "nome": "Luciana Silva",
+    "dataNascimento": "1994-02-25",
+    "email": "luciana.silva@designhub.com",
+    "telefone": "(21) 98123-4567",
+    "localidade": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "dataCriacao": "2023-07-08",
+    "dataUltimaCompra": "2025-01-10",
+    "valorTotalComprado": 28000,
+    "ticketMedio": 14000,
+    "proximoContato": "2025-02-25",
+    "canalPreferido": "whatsapp",
+    "score": 76,
+    "riscoChurn": "médio",
+    "atividades": [
+      { "id": 1, "data": "2025-01-08", "tipo": "email", "descricao": "Proposta com preços ajustados para nova parceria" },
+      { "id": 2, "data": "2025-01-02", "tipo": "ligação", "descricao": "Conversa sobre futuras colaborações" }
+    ],
+    "observacao": "Interesse em novos projetos criativos e colaborativos.",
+    "tipo": "PF",
+    "categoria": "regular",
+    "negociosFechados": 2,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-03", "texto": "Procurando soluções mais criativas para seu time de design." }
+    ],
+    "resumoRelacionamento": "Cliente com interesse em novos projetos colaborativos e criativos. Relacionamento promissor, mas ainda precisa de mais engajamento."
+  },
+  {
+    "id": 14,
+    "nome": "Gustavo Oliveira",
+    "dataNascimento": "1987-11-18",
+    "email": "gustavo.oliveira@fintechsolutions.com",
+    "telefone": "(31) 99234-5678",
+    "localidade": { "cidade": "Belo Horizonte", "estado": "MG" },
+    "dataCriacao": "2024-03-11",
+    "dataUltimaCompra": "2025-01-22",
+    "valorTotalComprado": 45000,
+    "ticketMedio": 22500,
+    "proximoContato": "2025-02-28",
+    "canalPreferido": "reunião",
+    "score": 89,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-21", "tipo": "reunião", "descricao": "Apresentação de soluções financeiras" },
+      { "id": 2, "data": "2025-01-05", "tipo": "email", "descricao": "Envio de propostas com planos financeiros" }
+    ],
+    "observacao": "Foco em crescimento sustentável com soluções financeiras escaláveis.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 6,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-10", "texto": "Buscando soluções para expansão da fintech para novos mercados." }
+    ],
+    "resumoRelacionamento": "Cliente estratégico no setor financeiro. Grande potencial de expansão, com foco em crescimento sustentável e soluções escaláveis."
+  },
+  {
+    "id": 15,
+    "nome": "Roberta Souza",
+    "dataNascimento": "1983-08-14",
+    "email": "roberta.souza@healthcarecorp.com",
+    "telefone": "(41) 98877-3344",
+    "localidade": { "cidade": "Curitiba", "estado": "PR" },
+    "dataCriacao": "2023-09-30",
+    "dataUltimaCompra": "2025-01-15",
+    "valorTotalComprado": 60000,
+    "ticketMedio": 30000,
+    "proximoContato": "2025-02-10",
+    "canalPreferido": "email",
+    "score": 91,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-10", "tipo": "reunião", "descricao": "Discussão sobre novos equipamentos médicos" },
+      { "id": 2, "data": "2025-01-01", "tipo": "email", "descricao": "Envio de proposta para novos produtos" }
+    ],
+    "observacao": "Foco em inovação no setor de saúde.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 7,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Interessada em novas tecnologias para expandir suas operações." }
+    ],
+    "resumoRelacionamento": "Cliente estratégico para o setor de saúde, com interesse em inovação e novos produtos. Forte potencial de crescimento com foco em tecnologias de ponta."
+  },
+  {
+    "id": 16,
+    "nome": "André Silva",
+    "dataNascimento": "1995-02-13",
+    "email": "andre.silva@tecnologiaaqui.com",
+    "telefone": "(51) 99223-4455",
+    "localidade": { "cidade": "Porto Alegre", "estado": "RS" },
+    "dataCriacao": "2024-07-22",
+    "dataUltimaCompra": "2025-01-25",
+    "valorTotalComprado": 38000,
+    "ticketMedio": 19000,
+    "proximoContato": "2025-03-02",
+    "canalPreferido": "reunião",
+    "score": 78,
+    "riscoChurn": "médio",
+    "atividades": [
+      { "id": 1, "data": "2025-01-23", "tipo": "email", "descricao": "Envio de proposta personalizada" },
+      { "id": 2, "data": "2025-01-15", "tipo": "ligação", "descricao": "Verificação de novos pacotes de serviços" }
+    ],
+    "observacao": "Interessado em soluções de TI para expansão empresarial.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 4,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Buscando tecnologias que suportem crescimento rápido." }
+    ],
+    "resumoRelacionamento": "Cliente com bom potencial de expansão, busca soluções de TI para impulsionar o crescimento da empresa."
+  },
+  {
+    "id": 17,
+    "nome": "Lucas Ribeiro",
+    "dataNascimento": "1989-11-25",
+    "email": "lucas.ribeiro@consultoria.com",
+    "telefone": "(31) 99955-6677",
+    "localidade": { "cidade": "Belo Horizonte", "estado": "MG" },
+    "dataCriacao": "2023-12-15",
+    "dataUltimaCompra": "2025-01-19",
+    "valorTotalComprado": 22000,
+    "ticketMedio": 22000,
+    "proximoContato": "2025-02-25",
+    "canalPreferido": "email",
+    "score": 72,
+    "riscoChurn": "médio",
+    "atividades": [
+      { "id": 1, "data": "2025-01-17", "tipo": "reunião", "descricao": "Discussão sobre novas consultorias" },
+      { "id": 2, "data": "2025-01-10", "tipo": "email", "descricao": "Envio de proposta detalhada" }
+    ],
+    "observacao": "Foco em consultoria estratégica para pequenas empresas.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 2,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-10", "texto": "Explorando novos serviços de consultoria." }
+    ],
+    "resumoRelacionamento": "Cliente com bom histórico, está interessado em expandir sua área de consultoria estratégica."
+  },
+  {
+    "id": 18,
+    "nome": "Beatriz Costa",
+    "dataNascimento": "1992-04-02",
+    "email": "beatriz.costa@marketplacepro.com",
+    "telefone": "(11) 96123-8877",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2024-09-12",
+    "dataUltimaCompra": "2025-01-10",
+    "valorTotalComprado": 25000,
+    "ticketMedio": 25000,
+    "proximoContato": "2025-02-05",
+    "canalPreferido": "whatsapp",
+    "score": 85,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-15", "tipo": "ligação", "descricao": "Discussão sobre pacotes de marketplace" },
+      { "id": 2, "data": "2025-01-05", "tipo": "email", "descricao": "Envio de proposta de ampliação de negócios" }
+    ],
+    "observacao": "Interessada em expandir a plataforma de marketplace.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 5,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Busca soluções que atendam maior volume de usuários." }
+    ],
+    "resumoRelacionamento": "Cliente de alto valor no segmento de marketplace, busca expandir operações e melhorar a escalabilidade da plataforma."
+  },
+  {
+    "id": 19,
+    "nome": "Felipe Martins",
+    "dataNascimento": "1990-06-13",
+    "email": "felipe.martins@retailhub.com",
+    "telefone": "(21) 97456-2345",
+    "localidade": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "dataCriacao": "2024-01-05",
+    "dataUltimaCompra": "2025-01-15",
+    "valorTotalComprado": 35000,
+    "ticketMedio": 35000,
+    "proximoContato": "2025-02-10",
+    "canalPreferido": "reunião",
+    "score": 92,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-10", "tipo": "reunião", "descricao": "Negociação de parceria estratégica" },
+      { "id": 2, "data": "2025-01-02", "tipo": "email", "descricao": "Proposta de novos acordos comerciais" }
+    ],
+    "observacao": "Cliente de alto valor com grande foco em expansão comercial.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 6,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-01", "texto": "Interessado em parceria de longo prazo." }
+    ],
+    "resumoRelacionamento": "Cliente com grande potencial de expansão no setor varejista. Interesse em parcerias e crescimento conjunto."
+  },
+  {
+    "id": 20,
+    "nome": "Carla Souza",
+    "dataNascimento": "1993-07-30",
+    "email": "carla.souza@edtechsolutions.com",
+    "telefone": "(61) 99123-4455",
+    "localidade": { "cidade": "Brasília", "estado": "DF" },
+    "dataCriacao": "2023-08-10",
+    "dataUltimaCompra": "2025-01-18",
+    "valorTotalComprado": 27000,
+    "ticketMedio": 27000,
+    "proximoContato": "2025-02-25",
+    "canalPreferido": "email",
+    "score": 88,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-12", "tipo": "email", "descricao": "Envio de proposta personalizada para expansão" },
+      { "id": 2, "data": "2025-01-05", "tipo": "reunião", "descricao": "Revisão de contrato educacional" }
+    ],
+    "observacao": "Foco em soluções para educação e capacitação online.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 8,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-03", "texto": "Busca expandir a plataforma de capacitação." }
+    ],
+    "resumoRelacionamento": "Cliente com grande potencial de expansão no setor educacional. Está investindo fortemente em plataformas de capacitação online."
+  },
+  {
+    "id": 21,
+    "nome": "Rafael Costa",
+    "dataNascimento": "1985-01-12",
+    "email": "rafael.costa@fintechsolutions.com",
+    "telefone": "(11) 99874-1234",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2023-02-03",
+    "dataUltimaCompra": "2025-01-20",
+    "valorTotalComprado": 45000,
+    "ticketMedio": 22500,
+    "proximoContato": "2025-02-10",
+    "canalPreferido": "reunião",
+    "score": 87,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-15", "tipo": "reunião", "descricao": "Discussão sobre investimentos futuros" },
+      { "id": 2, "data": "2025-01-02", "tipo": "email", "descricao": "Envio de proposta de investimento estratégico" }
+    ],
+    "observacao": "Focado em investimentos financeiros e planos de expansão.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 7,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Explorando novos investimentos no mercado financeiro." }
+    ],
+    "resumoRelacionamento": "Cliente com foco em investimentos e expansão financeira. Grande potencial de crescimento a partir de parcerias estratégicas."
+  },
+  {
+    "id": 22,
+    "nome": "Patrícia Almeida",
+    "dataNascimento": "1991-03-20",
+    "email": "patricia.almeida@healthsolutions.com",
+    "telefone": "(21) 98156-2333",
+    "localidade": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "dataCriacao": "2024-05-22",
+    "dataUltimaCompra": "2025-01-18",
+    "valorTotalComprado": 52000,
+    "ticketMedio": 26000,
+    "proximoContato": "2025-02-15",
+    "canalPreferido": "email",
+    "score": 90,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-10", "tipo": "reunião", "descricao": "Discussão sobre novos produtos de saúde" },
+      { "id": 2, "data": "2025-01-02", "tipo": "email", "descricao": "Envio de proposta de novos produtos" }
+    ],
+    "observacao": "Busca por inovações no mercado de saúde.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 9,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-01", "texto": "Interesse em novos lançamentos de produtos para o setor de saúde." }
+    ],
+    "resumoRelacionamento": "Cliente com forte interesse em inovação no setor de saúde. Grande potencial de expansão com novos produtos."
+  },
+  {
+    "id": 23,
+    "nome": "Marcelo Ferreira",
+    "dataNascimento": "1980-07-25",
+    "email": "marcelo.ferreira@corporationx.com",
+    "telefone": "(61) 99321-4455",
+    "localidade": { "cidade": "Brasília", "estado": "DF" },
+    "dataCriacao": "2024-03-30",
+    "dataUltimaCompra": "2025-01-12",
+    "valorTotalComprado": 70000,
+    "ticketMedio": 35000,
+    "proximoContato": "2025-02-10",
+    "canalPreferido": "reunião",
+    "score": 92,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-05", "tipo": "reunião", "descricao": "Negociação sobre contrato de longo prazo" },
+      { "id": 2, "data": "2025-01-01", "tipo": "email", "descricao": "Proposta de novos serviços para empresas" }
+    ],
+    "observacao": "Focado em soluções corporativas de longo prazo.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 12,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-03", "texto": "Interessado em contratos corporativos de longo prazo." }
+    ],
+    "resumoRelacionamento": "Cliente focado em contratos corporativos e soluções de longo prazo. Potencial de negócios contínuos."
+  },
+  {
+    "id": 24,
+    "nome": "Carolina Lima",
+    "dataNascimento": "1987-12-05",
+    "email": "carolina.lima@innovativecorp.com",
+    "telefone": "(41) 98234-5566",
+    "localidade": { "cidade": "Curitiba", "estado": "PR" },
+    "dataCriacao": "2024-06-08",
+    "dataUltimaCompra": "2025-01-10",
+    "valorTotalComprado": 37000,
+    "ticketMedio": 18500,
+    "proximoContato": "2025-02-20",
+    "canalPreferido": "email",
+    "score": 88,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-08", "tipo": "email", "descricao": "Proposta de novos serviços tecnológicos" },
+      { "id": 2, "data": "2025-01-02", "tipo": "reunião", "descricao": "Discussão sobre upgrade de sistemas" }
+    ],
+    "observacao": "Interessada em soluções tecnológicas inovadoras.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 8,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-03", "texto": "Busca por novos serviços tecnológicos para expansão." }
+    ],
+    "resumoRelacionamento": "Cliente com forte interesse em inovações tecnológicas. Potencial de crescimento com novos serviços."
+  },
+  {
+    "id": 25,
+    "nome": "Ricardo Martins",
+    "dataNascimento": "1992-10-17",
+    "email": "ricardo.martins@greentech.com",
+    "telefone": "(51) 99123-4567",
+    "localidade": { "cidade": "Porto Alegre", "estado": "RS" },
+    "dataCriacao": "2024-02-01",
+    "dataUltimaCompra": "2025-01-20",
+    "valorTotalComprado": 23000,
+    "ticketMedio": 11500,
+    "proximoContato": "2025-03-01",
+    "canalPreferido": "whatsapp",
+    "score": 75,
+    "riscoChurn": "médio",
+    "atividades": [
+      { "id": 1, "data": "2025-01-18", "tipo": "ligação", "descricao": "Discussão sobre soluções sustentáveis" },
+      { "id": 2, "data": "2025-01-10", "tipo": "email", "descricao": "Envio de proposta sobre eficiência energética" }
+    ],
+    "observacao": "Interesse em soluções sustentáveis e ecológicas.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 3,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Busca por soluções ecológicas e sustentáveis." }
+    ],
+    "resumoRelacionamento": "Cliente com interesse em soluções sustentáveis e ecológicas. Boa oportunidade para produtos com foco em energia verde."
+  },
+  {
+    "id": 26,
+    "nome": "Felipe Souza",
+    "dataNascimento": "1985-08-25",
+    "email": "felipe.souza@softwaresolutions.com",
+    "telefone": "(41) 99999-8877",
+    "localidade": { "cidade": "Curitiba", "estado": "PR" },
+    "dataCriacao": "2024-09-14",
+    "dataUltimaCompra": "2025-01-25",
+    "valorTotalComprado": 59000,
+    "ticketMedio": 29500,
+    "proximoContato": "2025-02-20",
+    "canalPreferido": "reunião",
+    "score": 83,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-23", "tipo": "reunião", "descricao": "Análise de novas funcionalidades para software" },
+      { "id": 2, "data": "2025-01-15", "tipo": "email", "descricao": "Proposta de personalização de sistemas" }
+    ],
+    "observacao": "Busca por soluções específicas para software corporativo.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 10,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Explorando novas soluções de software empresarial." }
+    ],
+    "resumoRelacionamento": "Cliente corporativo focado em soluções específicas de software. Grande potencial de personalização e integração de sistemas."
+  },
+  {
+    "id": 27,
+    "nome": "Gustavo Oliveira",
+    "dataNascimento": "1990-11-09",
+    "email": "gustavo.oliveira@retailgroup.com",
+    "telefone": "(21) 98877-1234",
+    "localidade": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "dataCriacao": "2024-05-30",
+    "dataUltimaCompra": "2025-01-18",
+    "valorTotalComprado": 32000,
+    "ticketMedio": 16000,
+    "proximoContato": "2025-02-28",
+    "canalPreferido": "email",
+    "score": 79,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-10", "tipo": "email", "descricao": "Envio de proposta de novos serviços" },
+      { "id": 2, "data": "2025-01-05", "tipo": "reunião", "descricao": "Discussão sobre novos pacotes de soluções" }
+    ],
+    "observacao": "Focado na expansão e melhoria de sistemas de gestão.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 6,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-01", "texto": "Interesse em soluções para melhorar a gestão e produtividade da equipe." }
+    ],
+    "resumoRelacionamento": "Cliente buscando otimização de sistemas de gestão e produtividade. Potencial de aumentar a parceria com soluções mais robustas."
+  },
+  {
+    "id": 28,
+    "nome": "Isabela Rocha",
+    "dataNascimento": "1993-09-16",
+    "email": "isabela.rocha@edtechsolutions.com",
+    "telefone": "(51) 99011-2233",
+    "localidade": { "cidade": "Porto Alegre", "estado": "RS" },
+    "dataCriacao": "2024-07-14",
+    "dataUltimaCompra": "2025-01-25",
+    "valorTotalComprado": 42000,
+    "ticketMedio": 21000,
+    "proximoContato": "2025-02-12",
+    "canalPreferido": "whatsapp",
+    "score": 85,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-20", "tipo": "email", "descricao": "Envio de proposta de capacitação online" },
+      { "id": 2, "data": "2025-01-10", "tipo": "reunião", "descricao": "Discussão sobre nova plataforma de ensino online" }
+    ],
+    "observacao": "Interessada em expandir suas soluções educacionais digitais.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 5,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Busca por soluções de ensino mais ágeis e integradas." }
+    ],
+    "resumoRelacionamento": "Cliente com grande potencial no setor educacional digital. Interessada em novos produtos de capacitação online."
+  },
+  {
+    "id": 29,
+    "nome": "Eduardo Pereira",
+    "dataNascimento": "1988-06-07",
+    "email": "eduardo.pereira@techgroup.com",
+    "telefone": "(11) 99786-5432",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2023-11-05",
+    "dataUltimaCompra": "2025-01-14",
+    "valorTotalComprado": 54000,
+    "ticketMedio": 27000,
+    "proximoContato": "2025-02-01",
+    "canalPreferido": "reunião",
+    "score": 94,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-12", "tipo": "reunião", "descricao": "Negociação de nova linha de produtos" },
+      { "id": 2, "data": "2025-01-06", "tipo": "email", "descricao": "Envio de proposta detalhada para novos produtos" }
+    ],
+    "observacao": "Focado em inovação tecnológica e expansão de mercado.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 10,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-04", "texto": "Explorando novos mercados para tecnologia e inovação." }
+    ],
+    "resumoRelacionamento": "Cliente corporativo com alto foco em inovação tecnológica e expansão de mercado. Potencial de crescimento significativo com novos produtos."
+  },
+  {
+    "id": 30,
+    "nome": "Laura Fernandes",
+    "dataNascimento": "1995-02-28",
+    "email": "laura.fernandes@globalcorp.com",
+    "telefone": "(41) 99988-1122",
+    "localidade": { "cidade": "Curitiba", "estado": "PR" },
+    "dataCriacao": "2024-09-18",
+    "dataUltimaCompra": "2025-01-15",
+    "valorTotalComprado": 47000,
+    "ticketMedio": 23500,
+    "proximoContato": "2025-02-22",
+    "canalPreferido": "email",
+    "score": 89,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-18", "tipo": "reunião", "descricao": "Análise de novos pacotes corporativos" },
+      { "id": 2, "data": "2025-01-10", "tipo": "email", "descricao": "Envio de proposta de pacotes corporativos" }
+    ],
+    "observacao": "Focada na melhoria de serviços corporativos e expansão de mercado.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 8,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-03", "texto": "Interessada em expandir os pacotes corporativos." }
+    ],
+    "resumoRelacionamento": "Cliente corporativo em busca de pacotes completos e soluções de expansão para mercado global."
+  },
+  {
+    "id": 31,
+    "nome": "Ana Beatriz Silva",
+    "dataNascimento": "1992-04-14",
+    "email": "ana.silva@cloudoffice.com",
+    "telefone": "(61) 98877-4455",
+    "localidade": { "cidade": "Brasília", "estado": "DF" },
+    "dataCriacao": "2024-06-22",
+    "dataUltimaCompra": "2025-01-30",
+    "valorTotalComprado": 58000,
+    "ticketMedio": 29000,
+    "proximoContato": "2025-03-01",
+    "canalPreferido": "email",
+    "score": 90,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-20", "tipo": "reunião", "descricao": "Discussão sobre novos contratos de nuvem" },
+      { "id": 2, "data": "2025-01-12", "tipo": "email", "descricao": "Proposta de atualização de serviços na nuvem" }
+    ],
+    "observacao": "Cliente focado em soluções de armazenamento e nuvem corporativa.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 10,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Interessada em expandir a infraestrutura de nuvem para a empresa." }
+    ],
+    "resumoRelacionamento": "Cliente com forte foco em soluções corporativas de nuvem. Grande potencial de expansão de serviços."
+  },
+  {
+    "id": 32,
+    "nome": "Lucas Martins",
+    "dataNascimento": "1986-12-11",
+    "email": "lucas.martins@financelabs.com",
+    "telefone": "(21) 99921-6677",
+    "localidade": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "dataCriacao": "2024-05-17",
+    "dataUltimaCompra": "2025-01-18",
+    "valorTotalComprado": 65000,
+    "ticketMedio": 32500,
+    "proximoContato": "2025-02-28",
+    "canalPreferido": "whatsapp",
+    "score": 85,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-12", "tipo": "reunião", "descricao": "Discussão sobre novos investimentos financeiros" },
+      { "id": 2, "data": "2025-01-03", "tipo": "email", "descricao": "Proposta de novos serviços financeiros para grandes empresas" }
+    ],
+    "observacao": "Buscando soluções inovadoras para otimização de investimentos financeiros.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 14,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Interessado em diversificação de investimentos financeiros." }
+    ],
+    "resumoRelacionamento": "Cliente com foco em soluções financeiras inovadoras. Grande potencial para novos produtos e serviços especializados."
+  },
+  {
+    "id": 33,
+    "nome": "Camila Souza",
+    "dataNascimento": "1994-07-05",
+    "email": "camila.souza@itstartup.com",
+    "telefone": "(11) 99754-7766",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2024-08-10",
+    "dataUltimaCompra": "2025-01-25",
+    "valorTotalComprado": 46000,
+    "ticketMedio": 23000,
+    "proximoContato": "2025-03-01",
+    "canalPreferido": "reunião",
+    "score": 88,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-22", "tipo": "reunião", "descricao": "Discussão sobre escalabilidade de sistema de TI" },
+      { "id": 2, "data": "2025-01-14", "tipo": "email", "descricao": "Envio de proposta para sistemas de TI escaláveis" }
+    ],
+    "observacao": "Focada em escalabilidade e performance de TI para startups.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 9,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Em busca de soluções de TI mais robustas e escaláveis para startups." }
+    ],
+    "resumoRelacionamento": "Cliente com foco em soluções escaláveis de TI. Oportunidade para maior expansão conforme necessidade de crescimento da empresa."
+  },
+  {
+    "id": 34,
+    "nome": "Daniel Oliveira",
+    "dataNascimento": "1983-10-21",
+    "email": "daniel.oliveira@techgroup.com",
+    "telefone": "(21) 99753-2233",
+    "localidade": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "dataCriacao": "2023-12-05",
+    "dataUltimaCompra": "2025-01-28",
+    "valorTotalComprado": 81000,
+    "ticketMedio": 27000,
+    "proximoContato": "2025-02-15",
+    "canalPreferido": "email",
+    "score": 93,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-26", "tipo": "reunião", "descricao": "Negociação sobre novos contratos tecnológicos" },
+      { "id": 2, "data": "2025-01-15", "tipo": "email", "descricao": "Proposta de soluções corporativas de tecnologia" }
+    ],
+    "observacao": "Interesse por soluções avançadas de tecnologia corporativa.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 15,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-10", "texto": "Explorando novas soluções tecnológicas para empresas." }
+    ],
+    "resumoRelacionamento": "Cliente corporativo com grande interesse em tecnologia avançada e soluções personalizadas para empresas."
+  },
+  {
+    "id": 35,
+    "nome": "Gabriel Lima",
+    "dataNascimento": "1987-01-18",
+    "email": "gabriel.lima@consulting.com",
+    "telefone": "(51) 99321-7890",
+    "localidade": { "cidade": "Porto Alegre", "estado": "RS" },
+    "dataCriacao": "2024-04-09",
+    "dataUltimaCompra": "2025-01-21",
+    "valorTotalComprado": 72000,
+    "ticketMedio": 36000,
+    "proximoContato": "2025-03-05",
+    "canalPreferido": "reunião",
+    "score": 85,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-20", "tipo": "reunião", "descricao": "Discussão sobre consultoria para processos internos" },
+      { "id": 2, "data": "2025-01-10", "tipo": "email", "descricao": "Proposta de serviços de consultoria para otimização de processos" }
+    ],
+    "observacao": "Focado em melhorar processos internos e otimização de equipes.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 11,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Busca por soluções para melhorar a eficiência de processos internos." }
+    ],
+    "resumoRelacionamento": "Cliente focado em soluções de consultoria para otimização de processos internos e produtividade."
+  },
+  {
+    "id": 36,
+    "nome": "Mariana Rocha",
+    "dataNascimento": "1990-02-18",
+    "email": "mariana.rocha@financetec.com",
+    "telefone": "(31) 98822-3344",
+    "localidade": { "cidade": "Belo Horizonte", "estado": "MG" },
+    "dataCriacao": "2024-05-25",
+    "dataUltimaCompra": "2025-01-29",
+    "valorTotalComprado": 85000,
+    "ticketMedio": 42500,
+    "proximoContato": "2025-03-10",
+    "canalPreferido": "whatsapp",
+    "score": 92,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-28", "tipo": "reunião", "descricao": "Discussão sobre soluções de análise financeira" },
+      { "id": 2, "data": "2025-01-20", "tipo": "email", "descricao": "Envio de proposta de soluções analíticas" }
+    ],
+    "observacao": "Cliente interessado em otimizar suas análises financeiras com soluções avançadas.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 10,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-15", "texto": "Em busca de soluções mais eficazes para análise financeira." }
+    ],
+    "resumoRelacionamento": "Cliente corporativo em busca de inovação para processos financeiros. Oportunidade de expandir serviços conforme sua necessidade."
+  },
+  {
+    "id": 37,
+    "nome": "Ricardo Costa",
+    "dataNascimento": "1985-05-05",
+    "email": "ricardo.costa@automotivegroup.com",
+    "telefone": "(11) 98899-7788",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2024-07-01",
+    "dataUltimaCompra": "2025-01-10",
+    "valorTotalComprado": 92000,
+    "ticketMedio": 46000,
+    "proximoContato": "2025-02-20",
+    "canalPreferido": "email",
+    "score": 95,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-05", "tipo": "reunião", "descricao": "Negociação sobre soluções tecnológicas para o setor automotivo" },
+      { "id": 2, "data": "2025-01-01", "tipo": "email", "descricao": "Proposta de soluções tecnológicas para automação do setor" }
+    ],
+    "observacao": "Interessado em soluções tecnológicas para otimização do setor automotivo.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 12,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2024-12-28", "texto": "Explorando soluções para automação do processo de manufatura." }
+    ],
+    "resumoRelacionamento": "Cliente focado em inovações tecnológicas para o setor automotivo. Potencial de expansão conforme novas demandas."
+  },
+  {
+    "id": 38,
+    "nome": "Joana Lima",
+    "dataNascimento": "1992-11-14",
+    "email": "joana.lima@retailsolutions.com",
+    "telefone": "(51) 98888-1122",
+    "localidade": { "cidade": "Porto Alegre", "estado": "RS" },
+    "dataCriacao": "2024-09-20",
+    "dataUltimaCompra": "2025-01-25",
+    "valorTotalComprado": 76000,
+    "ticketMedio": 38000,
+    "proximoContato": "2025-02-25",
+    "canalPreferido": "reunião",
+    "score": 87,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-15", "tipo": "reunião", "descricao": "Discussão sobre soluções de integração para sistemas de varejo" },
+      { "id": 2, "data": "2025-01-10", "tipo": "email", "descricao": "Envio de proposta para integração de sistemas de vendas" }
+    ],
+    "observacao": "Interessada em integrar soluções de gestão de estoque e vendas em tempo real.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 8,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Explorando soluções para integrar processos de gestão de estoque e vendas." }
+    ],
+    "resumoRelacionamento": "Cliente com foco na integração de sistemas de vendas e estoque. Oportunidade de crescimento com soluções mais completas."
+  },
+  {
+    "id": 39,
+    "nome": "Fábio Martins",
+    "dataNascimento": "1991-01-10",
+    "email": "fabio.martins@consultingservices.com",
+    "telefone": "(31) 99765-4332",
+    "localidade": { "cidade": "Belo Horizonte", "estado": "MG" },
+    "dataCriacao": "2023-11-20",
+    "dataUltimaCompra": "2025-01-18",
+    "valorTotalComprado": 62000,
+    "ticketMedio": 31000,
+    "proximoContato": "2025-02-18",
+    "canalPreferido": "whatsapp",
+    "score": 80,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-14", "tipo": "reunião", "descricao": "Consultoria sobre otimização de processos internos" },
+      { "id": 2, "data": "2025-01-05", "tipo": "email", "descricao": "Envio de proposta de otimização de processos" }
+    ],
+    "observacao": "Em busca de soluções para otimizar processos internos e reduzir custos operacionais.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 7,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-01", "texto": "Interessado em reduzir custos operacionais por meio de soluções inovadoras." }
+    ],
+    "resumoRelacionamento": "Cliente focado em soluções para redução de custos operacionais e otimização de processos internos."
+  },
+  {
+    "id": 40,
+    "nome": "Tatiane Pereira",
+    "dataNascimento": "1990-07-12",
+    "email": "tatiane.pereira@edtechsolutions.com",
+    "telefone": "(51) 99822-4411",
+    "localidade": { "cidade": "Porto Alegre", "estado": "RS" },
+    "dataCriacao": "2024-10-10",
+    "dataUltimaCompra": "2025-01-25",
+    "valorTotalComprado": 50000,
+    "ticketMedio": 25000,
+    "proximoContato": "2025-02-22",
+    "canalPreferido": "email",
+    "score": 84,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-20", "tipo": "email", "descricao": "Proposta de soluções de capacitação online" },
+      { "id": 2, "data": "2025-01-12", "tipo": "reunião", "descricao": "Discussão sobre novas ferramentas de ensino digital" }
+    ],
+    "observacao": "Em busca de soluções para capacitação online de seus colaboradores.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 6,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Interessada em expandir a capacitação digital para colaboradores em diferentes localidades." }
+    ],
+    "resumoRelacionamento": "Cliente buscando ferramentas de capacitação online para seus colaboradores. Potencial de crescimento conforme a expansão da oferta de cursos."
+  },
+  {
+    "id": 41,
+    "nome": "Gustavo Almeida",
+    "dataNascimento": "1988-08-09",
+    "email": "gustavo.almeida@enterpriselabs.com",
+    "telefone": "(21) 98765-1234",
+    "localidade": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "dataCriacao": "2024-06-05",
+    "dataUltimaCompra": "2025-01-30",
+    "valorTotalComprado": 91000,
+    "ticketMedio": 45500,
+    "proximoContato": "2025-03-15",
+    "canalPreferido": "reunião",
+    "score": 91,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-29", "tipo": "reunião", "descricao": "Planejamento de novos sistemas para empresa" },
+      { "id": 2, "data": "2025-01-15", "tipo": "email", "descricao": "Proposta de novos serviços corporativos" }
+    ],
+    "observacao": "Focado na modernização de sistemas corporativos.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 13,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-10", "texto": "Em busca de soluções para modernizar sua infraestrutura de TI." }
+    ],
+    "resumoRelacionamento": "Cliente com grande foco em modernização e crescimento tecnológico para a empresa. Oportunidade de expansão conforme a evolução das necessidades."
+  },
+  {
+    "id": 42,
+    "nome": "Roberta Nunes",
+    "dataNascimento": "1993-06-11",
+    "email": "roberta.nunes@techfirm.com",
+    "telefone": "(11) 99877-6655",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2024-07-01",
+    "dataUltimaCompra": "2025-01-27",
+    "valorTotalComprado": 68000,
+    "ticketMedio": 34000,
+    "proximoContato": "2025-03-01",
+    "canalPreferido": "whatsapp",
+    "score": 85,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-20", "tipo": "email", "descricao": "Proposta de integração de novos sistemas para o setor de vendas" },
+      { "id": 2, "data": "2025-01-10", "tipo": "reunião", "descricao": "Discussão sobre soluções de CRM e automação de vendas" }
+    ],
+    "observacao": "Interessada em integrar novos sistemas de CRM e automação de vendas.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 9,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Interessada em soluções que melhorem a eficiência no processo de vendas." }
+    ],
+    "resumoRelacionamento": "Cliente em busca de soluções para integrar e otimizar seu processo de vendas e CRM. Potencial de expansão conforme a evolução dos sistemas."
+  },
+  {
+    "id": 43,
+    "nome": "Eduardo Costa",
+    "dataNascimento": "1989-03-19",
+    "email": "eduardo.costa@consultingpartners.com",
+    "telefone": "(21) 98765-4321",
+    "localidade": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "dataCriacao": "2024-05-20",
+    "dataUltimaCompra": "2025-01-12",
+    "valorTotalComprado": 59000,
+    "ticketMedio": 29500,
+    "proximoContato": "2025-02-28",
+    "canalPreferido": "email",
+    "score": 80,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-09", "tipo": "reunião", "descricao": "Discussão sobre consultoria em processos de melhoria" },
+      { "id": 2, "data": "2025-01-01", "tipo": "email", "descricao": "Proposta de serviços de consultoria para otimização de processos" }
+    ],
+    "observacao": "Cliente buscando melhoria de processos internos.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 5,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2024-12-20", "texto": "Em busca de consultoria especializada em otimização de processos internos." }
+    ],
+    "resumoRelacionamento": "Cliente focado em otimização de processos internos e eficiência organizacional. Potencial para mais negócios com soluções práticas."
+  },
+  {
+    "id": 44,
+    "nome": "Luana Silva",
+    "dataNascimento": "1991-02-10",
+    "email": "luana.silva@hrsolutions.com",
+    "telefone": "(61) 99885-5544",
+    "localidade": { "cidade": "Brasília", "estado": "DF" },
+    "dataCriacao": "2024-08-18",
+    "dataUltimaCompra": "2025-01-24",
+    "valorTotalComprado": 71000,
+    "ticketMedio": 35500,
+    "proximoContato": "2025-03-05",
+    "canalPreferido": "whatsapp",
+    "score": 90,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-20", "tipo": "reunião", "descricao": "Discussão sobre soluções de gestão de recursos humanos" },
+      { "id": 2, "data": "2025-01-12", "tipo": "email", "descricao": "Proposta de integração de sistemas de RH para empresas" }
+    ],
+    "observacao": "Interessada em soluções de automação para gestão de RH.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 11,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Em busca de soluções automatizadas para gestão de recursos humanos e processos de recrutamento." }
+    ],
+    "resumoRelacionamento": "Cliente com grande interesse em automação de processos de RH. Oportunidade de expansão conforme a integração das soluções."
+  },
+  {
+    "id": 45,
+    "nome": "Paulo Henrique",
+    "dataNascimento": "1995-11-30",
+    "email": "paulo.henrique@marketingsolutions.com",
+    "telefone": "(11) 98822-6633",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2024-03-30",
+    "dataUltimaCompra": "2025-01-30",
+    "valorTotalComprado": 63000,
+    "ticketMedio": 31500,
+    "proximoContato": "2025-03-10",
+    "canalPreferido": "email",
+    "score": 88,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-15", "tipo": "reunião", "descricao": "Discussão sobre estratégias de marketing digital" },
+      { "id": 2, "data": "2025-01-05", "tipo": "email", "descricao": "Proposta de soluções para campanhas digitais" }
+    ],
+    "observacao": "Focada em otimização de campanhas de marketing digital.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 8,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-01", "texto": "Interessada em otimizar campanhas de marketing digital para empresas." }
+    ],
+    "resumoRelacionamento": "Cliente focada em aumentar a eficácia de campanhas de marketing digital. Potencial de expansão conforme evolução das campanhas."
+  },
+  {
+    "id": 46,
+    "nome": "Carlos Eduardo",
+    "dataNascimento": "1990-04-24",
+    "email": "carlos.eduardo@ecommercesolutions.com",
+    "telefone": "(51) 98765-4433",
+    "localidade": { "cidade": "Porto Alegre", "estado": "RS" },
+    "dataCriacao": "2024-06-12",
+    "dataUltimaCompra": "2025-01-30",
+    "valorTotalComprado": 80000,
+    "ticketMedio": 40000,
+    "proximoContato": "2025-03-12",
+    "canalPreferido": "whatsapp",
+    "score": 89,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-22", "tipo": "reunião", "descricao": "Planejamento para expansão do e-commerce" },
+      { "id": 2, "data": "2025-01-15", "tipo": "email", "descricao": "Proposta de soluções para otimização de vendas online" }
+    ],
+    "observacao": "Cliente com foco em expansão e aumento de vendas em plataformas online.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 7,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-10", "texto": "Interessado em plataformas de automação para o e-commerce." }
+    ],
+    "resumoRelacionamento": "Cliente focado em aumentar suas vendas online com soluções mais automatizadas. Potencial para expandir conforme crescimento de seu e-commerce."
+  },
+  {
+    "id": 47,
+    "nome": "Fernanda Souza",
+    "dataNascimento": "1987-03-21",
+    "email": "fernanda.souza@fintechsolutions.com",
+    "telefone": "(61) 98822-7733",
+    "localidade": { "cidade": "Brasília", "estado": "DF" },
+    "dataCriacao": "2024-07-10",
+    "dataUltimaCompra": "2025-01-15",
+    "valorTotalComprado": 55000,
+    "ticketMedio": 27500,
+    "proximoContato": "2025-02-15",
+    "canalPreferido": "reunião",
+    "score": 82,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-10", "tipo": "reunião", "descricao": "Planejamento de novas ferramentas para o setor de fintech" },
+      { "id": 2, "data": "2025-01-05", "tipo": "email", "descricao": "Proposta de integração de soluções financeiras" }
+    ],
+    "observacao": "Interessada em soluções para melhorar a eficiência dos processos financeiros.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 5,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-01", "texto": "Focada em aumentar a eficiência no setor financeiro com tecnologia." }
+    ],
+    "resumoRelacionamento": "Cliente em busca de soluções para aprimorar processos financeiros. Potencial de crescimento conforme a evolução de suas necessidades."
+  },
+  {
+    "id": 48,
+    "nome": "Juliana Martins",
+    "dataNascimento": "1994-02-05",
+    "email": "juliana.martins@startupsupport.com",
+    "telefone": "(11) 99333-2244",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2024-08-02",
+    "dataUltimaCompra": "2025-01-20",
+    "valorTotalComprado": 75000,
+    "ticketMedio": 37500,
+    "proximoContato": "2025-02-10",
+    "canalPreferido": "whatsapp",
+    "score": 86,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-15", "tipo": "reunião", "descricao": "Discussão sobre suporte para novas startups" },
+      { "id": 2, "data": "2025-01-08", "tipo": "email", "descricao": "Proposta de soluções específicas para startups" }
+    ],
+    "observacao": "Cliente com foco no crescimento e apoio a novas startups.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 6,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Em busca de apoio para o desenvolvimento de novas startups e soluções inovadoras." }
+    ],
+    "resumoRelacionamento": "Cliente com forte foco em inovação e crescimento de startups. Oportunidade de expansão conforme o apoio às novas empresas."
+  },
+  {
+    "id": 49,
+    "nome": "Leonardo Pereira",
+    "dataNascimento": "1983-10-18",
+    "email": "leonardo.pereira@edtechsolutions.com",
+    "telefone": "(41) 99877-4455",
+    "localidade": { "cidade": "Curitiba", "estado": "PR" },
+    "dataCriacao": "2024-05-15",
+    "dataUltimaCompra": "2025-01-25",
+    "valorTotalComprado": 53000,
+    "ticketMedio": 26500,
+    "proximoContato": "2025-02-28",
+    "canalPreferido": "reunião",
+    "score": 83,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-18", "tipo": "reunião", "descricao": "Discussão sobre soluções educacionais digitais" },
+      { "id": 2, "data": "2025-01-10", "tipo": "email", "descricao": "Proposta de soluções para ensino digital" }
+    ],
+    "observacao": "Cliente interessada em soluções educacionais digitais.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 6,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-03", "texto": "Em busca de soluções digitais para educação à distância." }
+    ],
+    "resumoRelacionamento": "Cliente em busca de soluções para capacitação e ensino digital. Oportunidade de expansão conforme a evolução do setor educacional digital."
+  },
+  {
+    "id": 50,
+    "nome": "Ricardo Oliveira",
+    "dataNascimento": "1982-06-23",
+    "email": "ricardo.oliveira@businessconsulting.com",
+    "telefone": "(21) 99999-1122",
+    "localidade": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "dataCriacao": "2024-04-10",
+    "dataUltimaCompra": "2025-01-10",
+    "valorTotalComprado": 67000,
+    "ticketMedio": 33500,
+    "proximoContato": "2025-02-05",
+    "canalPreferido": "email",
+    "score": 87,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-03", "tipo": "reunião", "descricao": "Consultoria para expansão de negócios" },
+      { "id": 2, "data": "2025-01-01", "tipo": "email", "descricao": "Proposta de consultoria para novos mercados" }
+    ],
+    "observacao": "Focada em expansão de negócios e entrada em novos mercados.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 9,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2024-12-28", "texto": "Buscando consultoria para entrada em novos mercados internacionais." }
+    ],
+    "resumoRelacionamento": "Cliente com grande foco na expansão de seus negócios, com interesse em novos mercados. Potencial de crescimento conforme novas estratégias de negócios."
+  },
+  {
+    "id": 51,
+    "nome": "Sofia Ribeiro",
+    "dataNascimento": "1996-09-25",
+    "email": "sofia.ribeiro@financesolutions.com",
+    "telefone": "(61) 99122-3344",
+    "localidade": { "cidade": "Brasília", "estado": "DF" },
+    "dataCriacao": "2024-03-22",
+    "dataUltimaCompra": "2025-01-18",
+    "valorTotalComprado": 52000,
+    "ticketMedio": 26000,
+    "proximoContato": "2025-02-20",
+    "canalPreferido": "whatsapp",
+    "score": 90,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-15", "tipo": "reunião", "descricao": "Discussão sobre soluções financeiras para empresas" },
+      { "id": 2, "data": "2025-01-10", "tipo": "email", "descricao": "Proposta de soluções de gestão financeira" }
+    ],
+    "observacao": "Cliente com foco na gestão financeira de empresas.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 7,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Busca otimizar a gestão financeira com soluções digitais." }
+    ],
+    "resumoRelacionamento": "Cliente com foco em soluções financeiras para empresas. Potencial de expansão conforme as necessidades de otimização financeira."
+  },
+  {
+    "id": 52,
+    "nome": "Gabriel Silva",
+    "dataNascimento": "1985-07-30",
+    "email": "gabriel.silva@ecommercepro.com",
+    "telefone": "(41) 98765-3322",
+    "localidade": { "cidade": "Curitiba", "estado": "PR" },
+    "dataCriacao": "2024-06-15",
+    "dataUltimaCompra": "2025-01-28",
+    "valorTotalComprado": 80000,
+    "ticketMedio": 40000,
+    "proximoContato": "2025-03-02",
+    "canalPreferido": "email",
+    "score": 92,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-25", "tipo": "reunião", "descricao": "Planejamento de ações para otimização de vendas" },
+      { "id": 2, "data": "2025-01-15", "tipo": "email", "descricao": "Proposta de soluções para e-commerce" }
+    ],
+    "observacao": "Focado em otimizar a operação de vendas online e aumentar as conversões.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 8,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-10", "texto": "Busca otimizar o e-commerce com soluções mais integradas." }
+    ],
+    "resumoRelacionamento": "Cliente em busca de soluções para aumentar as vendas online e melhorar o desempenho do e-commerce."
+  },
+  {
+    "id": 53,
+    "nome": "Tatiane Costa",
+    "dataNascimento": "1992-11-15",
+    "email": "tatiane.costa@hrsolutions.com",
+    "telefone": "(11) 99222-5544",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2024-07-01",
+    "dataUltimaCompra": "2025-01-19",
+    "valorTotalComprado": 67000,
+    "ticketMedio": 33500,
+    "proximoContato": "2025-03-03",
+    "canalPreferido": "reunião",
+    "score": 88,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-15", "tipo": "reunião", "descricao": "Discussão sobre soluções de RH para empresas" },
+      { "id": 2, "data": "2025-01-08", "tipo": "email", "descricao": "Proposta de soluções para gestão de talentos" }
+    ],
+    "observacao": "Focada em soluções de gestão de recursos humanos e retenção de talentos.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 7,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Buscando melhorar processos de gestão de pessoas e retenção de talentos." }
+    ],
+    "resumoRelacionamento": "Cliente focada em soluções de RH e gestão de talentos. Potencial para expansão conforme evolução de suas operações de gestão de pessoas."
+  },
+  {
+    "id": 54,
+    "nome": "Fernando Pires",
+    "dataNascimento": "1983-12-02",
+    "email": "fernando.pires@itconsulting.com",
+    "telefone": "(51) 99333-5544",
+    "localidade": { "cidade": "Porto Alegre", "estado": "RS" },
+    "dataCriacao": "2024-05-20",
+    "dataUltimaCompra": "2025-01-25",
+    "valorTotalComprado": 73000,
+    "ticketMedio": 36500,
+    "proximoContato": "2025-02-20",
+    "canalPreferido": "reunião",
+    "score": 91,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-20", "tipo": "reunião", "descricao": "Planejamento de novas soluções tecnológicas para empresas" },
+      { "id": 2, "data": "2025-01-10", "tipo": "email", "descricao": "Proposta de soluções em consultoria de TI" }
+    ],
+    "observacao": "Em busca de consultoria para implementação de novas soluções tecnológicas.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 10,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Interessado em soluções tecnológicas para empresas com foco em eficiência e integração." }
+    ],
+    "resumoRelacionamento": "Cliente em busca de soluções tecnológicas e consultoria para otimizar a operação das empresas. Potencial de crescimento com novas implementações."
+  },
+  {
+    "id": 55,
+    "nome": "Cláudia Almeida",
+    "dataNascimento": "1990-01-30",
+    "email": "claudia.almeida@retailtech.com",
+    "telefone": "(11) 99666-1234",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2024-06-01",
+    "dataUltimaCompra": "2025-01-18",
+    "valorTotalComprado": 81000,
+    "ticketMedio": 40500,
+    "proximoContato": "2025-02-25",
+    "canalPreferido": "reunião",
+    "score": 94,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-17", "tipo": "reunião", "descricao": "Discussão sobre novas soluções de tecnologia para o varejo" },
+      { "id": 2, "data": "2025-01-10", "tipo": "email", "descricao": "Proposta de melhorias em sistemas de vendas" }
+    ],
+    "observacao": "Cliente com foco em soluções para o setor de varejo.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 12,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-03", "texto": "Busca soluções para melhorar a operação de vendas no varejo com tecnologia avançada." }
+    ],
+    "resumoRelacionamento": "Cliente com foco em otimizar suas operações de vendas no varejo. Grande potencial para novas soluções tecnológicas."
+  },
+  {
+    "id": 56,
+    "nome": "Rafael Martins",
+    "dataNascimento": "1988-04-12",
+    "email": "rafael.martins@healthtech.com",
+    "telefone": "(21) 99555-6677",
+    "localidade": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "dataCriacao": "2024-03-05",
+    "dataUltimaCompra": "2025-01-22",
+    "valorTotalComprado": 92000,
+    "ticketMedio": 46000,
+    "proximoContato": "2025-03-05",
+    "canalPreferido": "reunião",
+    "score": 96,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-20", "tipo": "reunião", "descricao": "Planejamento de soluções tecnológicas para saúde" },
+      { "id": 2, "data": "2025-01-10", "tipo": "email", "descricao": "Proposta de tecnologia para otimização de processos no setor de saúde" }
+    ],
+    "observacao": "Focado em soluções tecnológicas para o setor de saúde.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 15,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Busca otimizar processos de atendimento e gestão na saúde com tecnologia." }
+    ],
+    "resumoRelacionamento": "Cliente com grande foco na otimização de processos no setor de saúde. Potencial para expandir ainda mais com novas soluções inovadoras."
+  },
+  {
+    "id": 57,
+    "nome": "Lucas Oliveira",
+    "dataNascimento": "1992-03-11",
+    "email": "lucas.oliveira@fintechsystems.com",
+    "telefone": "(31) 99888-5599",
+    "localidade": { "cidade": "Belo Horizonte", "estado": "MG" },
+    "dataCriacao": "2024-02-20",
+    "dataUltimaCompra": "2025-01-19",
+    "valorTotalComprado": 54000,
+    "ticketMedio": 27000,
+    "proximoContato": "2025-02-28",
+    "canalPreferido": "email",
+    "score": 85,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-10", "tipo": "reunião", "descricao": "Planejamento de integração de sistemas financeiros" },
+      { "id": 2, "data": "2025-01-05", "tipo": "email", "descricao": "Proposta de integração de novas soluções financeiras" }
+    ],
+    "observacao": "Busca integrar novos sistemas financeiros para otimizar a gestão.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 4,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-01", "texto": "Interessado em automatizar processos financeiros." }
+    ],
+    "resumoRelacionamento": "Cliente focado em integrar sistemas financeiros para otimizar a operação e reduzir custos. Potencial de expansão conforme novas implementações."
+  },
+  {
+    "id": 58,
+    "nome": "Amanda Rodrigues",
+    "dataNascimento": "1994-06-09",
+    "email": "amanda.rodrigues@smartsolutions.com",
+    "telefone": "(41) 99777-1133",
+    "localidade": { "cidade": "Curitiba", "estado": "PR" },
+    "dataCriacao": "2024-08-22",
+    "dataUltimaCompra": "2025-01-16",
+    "valorTotalComprado": 60000,
+    "ticketMedio": 30000,
+    "proximoContato": "2025-03-10",
+    "canalPreferido": "reunião",
+    "score": 88,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-12", "tipo": "reunião", "descricao": "Consultoria para soluções inteligentes de automação" },
+      { "id": 2, "data": "2025-01-05", "tipo": "email", "descricao": "Proposta de soluções inteligentes para automação de processos" }
+    ],
+    "observacao": "Focada em automação inteligente de processos empresariais.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 6,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-01", "texto": "Buscando integrar automação inteligente para otimizar seus processos." }
+    ],
+    "resumoRelacionamento": "Cliente em busca de soluções inovadoras para otimizar processos internos com automação inteligente. Potencial de crescimento conforme a implementação das soluções."
+  },
+  {
+    "id": 59,
+    "nome": "Paulo Ferreira",
+    "dataNascimento": "1986-08-23",
+    "email": "paulo.ferreira@smartmanufacturing.com",
+    "telefone": "(51) 99111-2233",
+    "localidade": { "cidade": "Porto Alegre", "estado": "RS" },
+    "dataCriacao": "2024-01-10",
+    "dataUltimaCompra": "2025-01-12",
+    "valorTotalComprado": 85000,
+    "ticketMedio": 42500,
+    "proximoContato": "2025-02-15",
+    "canalPreferido": "reunião",
+    "score": 93,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-07", "tipo": "reunião", "descricao": "Planejamento para integração de tecnologias de manufatura" },
+      { "id": 2, "data": "2025-01-03", "tipo": "email", "descricao": "Proposta de soluções para manufatura inteligente" }
+    ],
+    "observacao": "Cliente buscando implementar tecnologias de manufatura inteligente.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 10,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2024-12-28", "texto": "Buscando otimizar processos produtivos com tecnologia avançada." }
+    ],
+    "resumoRelacionamento": "Cliente com grande potencial no setor de manufatura inteligente. Soluções que otimizam e automatizam processos de produção são um bom fit para suas necessidades."
+  },
+  {
+    "id": 60,
+    "nome": "Andréia Gomes",
+    "dataNascimento": "1995-05-20",
+    "email": "andreia.gomes@marketingtech.com",
+    "telefone": "(61) 98844-6677",
+    "localidade": { "cidade": "Brasília", "estado": "DF" },
+    "dataCriacao": "2024-07-15",
+    "dataUltimaCompra": "2025-01-20",
+    "valorTotalComprado": 92000,
+    "ticketMedio": 46000,
+    "proximoContato": "2025-03-03",
+    "canalPreferido": "email",
+    "score": 90,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-15", "tipo": "reunião", "descricao": "Consultoria em marketing digital para otimização de campanhas" },
+      { "id": 2, "data": "2025-01-05", "tipo": "email", "descricao": "Proposta de soluções de marketing digital para empresas" }
+    ],
+    "observacao": "Focada em otimizar campanhas de marketing digital para empresas.",
+    "tipo": "PJ",
+    "categoria": "regular",
+    "negociosFechados": 9,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-02", "texto": "Busca melhorar o retorno sobre investimento em campanhas de marketing." }
+    ],
+    "resumoRelacionamento": "Cliente focada em soluções de marketing digital para empresas. Potencial para expandir suas campanhas conforme crescimento e implementação das soluções."
+  },
+  {
+    "id": 61,
+    "nome": "Marcos Lins",
+    "dataNascimento": "1987-03-05",
+    "email": "marcos.lins@greenenergy.com",
+    "telefone": "(21) 99000-1122",
+    "localidade": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "dataCriacao": "2024-04-25",
+    "dataUltimaCompra": "2025-01-27",
+    "valorTotalComprado": 70000,
+    "ticketMedio": 35000,
+    "proximoContato": "2025-02-20",
+    "canalPreferido": "reunião",
+    "score": 91,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-25", "tipo": "reunião", "descricao": "Planejamento de soluções sustentáveis e energias renováveis" },
+      { "id": 2, "data": "2025-01-15", "tipo": "email", "descricao": "Proposta de soluções para energias renováveis" }
+    ],
+    "observacao": "Focada em implementar soluções sustentáveis e energias renováveis em seus processos.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 12,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-10", "texto": "Interessado em melhorar a sustentabilidade e a eficiência energética." }
+    ],
+    "resumoRelacionamento": "Cliente com foco em soluções de sustentabilidade e energias renováveis. Grande potencial para expandir com novas soluções."
+  },
+  {
+    "id": 62,
+    "nome": "Fernanda Costa",
+    "dataNascimento": "1990-11-30",
+    "email": "fernanda.costa@constructiontech.com",
+    "telefone": "(11) 99887-2244",
+    "localidade": { "cidade": "São Paulo", "estado": "SP" },
+    "dataCriacao": "2024-06-10",
+    "dataUltimaCompra": "2025-01-23",
+    "valorTotalComprado": 96000,
+    "ticketMedio": 48000,
+    "proximoContato": "2025-03-05",
+    "canalPreferido": "email",
+    "score": 92,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-20", "tipo": "reunião", "descricao": "Planejamento de integração tecnológica no setor de construção" },
+      { "id": 2, "data": "2025-01-10", "tipo": "email", "descricao": "Proposta de soluções de automação no setor de construção" }
+    ],
+    "observacao": "Busca integrar soluções tecnológicas no setor de construção civil.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 14,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-05", "texto": "Interesse em automatizar processos no setor de construção." }
+    ],
+    "resumoRelacionamento": "Cliente com foco em automatização no setor de construção. Grande potencial de crescimento com a implementação de novas soluções tecnológicas."
+  },
+  {
+    "id": 63,
+    "nome": "Roberta Souza",
+    "dataNascimento": "1989-09-05",
+    "email": "roberta.souza@digitalmarketing.com",
+    "telefone": "(31) 99123-4455",
+    "localidade": { "cidade": "Belo Horizonte", "estado": "MG" },
+    "dataCriacao": "2024-09-11",
+    "dataUltimaCompra": "2025-01-22",
+    "valorTotalComprado": 88000,
+    "ticketMedio": 44000,
+    "proximoContato": "2025-02-10",
+    "canalPreferido": "reunião",
+    "score": 95,
+    "riscoChurn": "baixo",
+    "atividades": [
+      { "id": 1, "data": "2025-01-15", "tipo": "reunião", "descricao": "Consultoria para otimização de campanhas digitais" },
+      { "id": 2, "data": "2025-01-08", "tipo": "email", "descricao": "Proposta de soluções de marketing digital" }
+    ],
+    "observacao": "Cliente focada em marketing digital para aumento de alcance.",
+    "tipo": "PJ",
+    "categoria": "vip",
+    "negociosFechados": 13,
+    "status": "ativo",
+    "notas": [
+      { "id": 1, "data": "2025-01-02", "texto": "Interessada em expandir suas campanhas digitais e alcançar novos públicos." }
+    ],
+    "resumoRelacionamento": "Cliente com forte foco em marketing digital e expansão de campanhas. Grande potencial de crescimento com a evolução das soluções implementadas."
   }
 ]
