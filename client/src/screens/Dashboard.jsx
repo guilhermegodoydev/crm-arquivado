@@ -7,7 +7,7 @@ import { CardMetrica } from "../components/cards/CardMetrica";
 
 import { useFetch } from "../hooks/utils/useFetch";
 
-export default function Dashboard() {
+export function Dashboard() {
     const isMobile = useMediaQuery({ maxWidth: 1024});
     const { dados, carregando, erro} = useFetch("/mock/metricas.json");
 

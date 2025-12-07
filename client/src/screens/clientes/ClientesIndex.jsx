@@ -30,7 +30,7 @@ const colunas = [
   }
 ];
 
-export default function ClientesIndex() {
+export function ClientesIndex() {
   const [busca, setBusca] = useState("");
   const [filtrado, setFiltrado] = useState({nome: ""});
   const tempoDigitacao = useRef(null);

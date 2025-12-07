@@ -13,7 +13,7 @@ import { LeadArastavel } from "../components/kanban/LeadArastavel";
 
 import { useLeadEtapa } from "../hooks/derivados/useLeadEtapa";
 
-export default function Etapas() {
+export function Etapas() {
   const { leadsPorEtapa, moverLeadParaEtapa, carregando, erro} = useLeadEtapa();
   const [ leadSelecionado, setLeadSelecionado ] = useState(null);
   const sensors = useSensors(useSensor(PointerSensor));

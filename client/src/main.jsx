@@ -5,9 +5,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App.jsx"
 
-import Dashboard from "./screens/Dashboard.jsx";
-import ClientesIndex from "./screens/clientes/ClientesIndex.jsx";
-import Etapas from "./screens/Etapas.jsx";
+import { Dashboard } from "./screens/Dashboard.jsx";
+import { ClientesIndex } from "./screens/clientes/ClientesIndex.jsx";
+import { Etapas } from "./screens/Etapas.jsx";
 import { Relatorios } from "./screens/Relatorios.jsx";
 import { ClientesBase } from "./screens/clientes/ClientesBase.jsx";
 import { ClienteDetalhes } from "./screens/clientes/ClienteDetalhes.jsx";
