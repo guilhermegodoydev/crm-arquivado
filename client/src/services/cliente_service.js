@@ -1,11 +1,9 @@
 export function obterUltimoContatoCliente(ativiadesCliente) {
     console.log(ativiadesCliente);
     if (ativiadesCliente.length === 0) {
-        console.log("Nenhuma atividade registrada");
         return "Nenhuma atividade registrada";
     }
 
-    console.log("Atividades encontradas");
     let ultimoContato = "";
 
     ativiadesCliente.forEach(atv => {
