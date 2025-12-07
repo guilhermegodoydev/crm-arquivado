@@ -16,10 +16,9 @@ export function LeadArastavel({ lead, etapaId, onClick }) {
         <li 
             onClick={onClick} 
             style={style} 
-            className="flex mb-5 p-2 gap-2 bg-white rounded-md border-gray-400 shadow relative cursor-pointer"
+            className="flex justify-between mb-5 p-2 gap-2 bg-white rounded-md border-gray-400 shadow relative cursor-pointer"
         >
-            <img src="src/assets/perfil.png" alt={`Foto do ${lead.nome.split(" ")[0]}`} className="h-10 w-10 rounded-full"/>
-            <div className="max-w-[61%]">
+            <div className="max-w-[85%]">
                 <h3 className="truncate" title={lead.nome}>{lead.nome}</h3>
                 <p className="text-sm">Origem: {lead.origem}</p>
             </div>
