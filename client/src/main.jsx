@@ -8,13 +8,18 @@ import App from "./App.jsx"
 import Dashboard from "./screens/Dashboard.jsx";
 import ClientesIndex from "./screens/clientes/ClientesIndex.jsx";
 import Etapas from "./screens/Etapas.jsx";
-import Relatorios from "./screens/Relatorios.jsx";
+import { Relatorios } from "./screens/Relatorios.jsx";
 import { ClientesBase } from "./screens/clientes/ClientesBase.jsx";
 import { ClienteDetalhes } from "./screens/clientes/ClienteDetalhes.jsx";
 import { PaginaErro } from "./screens/PaginaErro.jsx";
 import { Configuracoes } from "./screens/Configuracoes.jsx";
+import { Teste } from "./screens/Teste.jsx";
 
 const router = createBrowserRouter([
+  {
+    path: "/teste",
+    element: <Teste/>
+  },
   {
     path: "/",
     element: <App/>,

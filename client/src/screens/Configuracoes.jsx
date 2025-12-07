@@ -56,10 +56,16 @@ export function Configuracoes() {
 
 //========================================================================================
 //
-//
-//PERMITIR ALTERAÇÃO DO CMAPO DE STATUS DO CLIENTE
+//O NOME DE ALGUNS LEADS ESTÃO IGUAIS, ENTÃO É MELHOR ALTERAR O NOME OU COLOCAR MAIS SOBRENOMES PARA DIFERENCIAR
+//Adicioanr Funcionalidade de download de relatórios 
+//PERMITIR ALTERAÇÃO DO CAMPO DE STATUS DO CLIENTE
 //ADICIONAR VALIDAÇÃO NO CAMPO DE TELEFONE PARA SEGUIR O FORMATO DE TELEFONE
-//REMOVER CONTEXTO DE TELA E TROCAR POR USEMEDIAQUERY
 //ADICIONAR EDIÇÃO DE ATIVIDADE DO HISTÓRICO DE ATIVIDADES
+//ADICIONAR DARK E LIGHT TEMA
+//Refazer página de relatórios
+//remover "default" de funções que renderizam páginas(componentes de páginas)
+//ADICIONAR TEXTO AOS RELATORIOS E NÃO APENAS TABELAS
+//REVER OS MODELOS DE RELATORIOS OFERECENDO DOWNLOAD APENAS DO QUE SÃO UTEIS
+//Tranformar código de "card" cliente usado na página de clinetesIndex para exibir os clientes no lugar de uma tabela na versão mobiel por um componente de cardCliente
 //
-//========================================================================================
+//=========================================================================================
