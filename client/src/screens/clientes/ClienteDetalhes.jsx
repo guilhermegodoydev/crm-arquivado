@@ -16,6 +16,7 @@ import { useMediaQuery } from "react-responsive";
 import { CardAtividade } from "../../components/cards/CardAtividade";
 import { FormAtividade } from "../../components/FormAtividade";
 import { useModal } from "../../hooks/ui/useModal";
+import { obterUltimoContatoCliente } from "../../services/cliente_service";
 
 export function ClienteDetalhes() {
     const { id } = useParams();
@@ -117,7 +118,7 @@ export function ClienteDetalhes() {
     
     const excluirAtividade = (idAtividade) => {
         const atividadesNovas = dadosCliente.atividades.filter(a => a.id != idAtividade);
-        const ultimoContato = atividadesNovas.length > 0 ? atividadesNovas[0].data : "Nenhuma atividade registrada";
+        const ultimoContato = obterUltimoContatoCliente(atividadesNovas);
 
         setDadosCliente(prev => ({
             ...prev,
@@ -142,9 +143,13 @@ export function ClienteDetalhes() {
         salvarAtividade(id, atividade);
         
         fecharModal();
+
+        const novasAtividades = [atividade, ...(dadosCliente.atividades || [])];
+
         setDadosCliente(prev => ({
             ...prev,
-            atividades: [atividade, ...(prev.atividades || [])]
+            atividades: novasAtividades,
+            ultimoContato: obterUltimoContatoCliente(novasAtividades)
         }));
         
     };
