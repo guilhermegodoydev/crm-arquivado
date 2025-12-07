@@ -1,5 +1,4 @@
 export function obterUltimoContatoCliente(ativiadesCliente) {
-    console.log(ativiadesCliente);
     if (ativiadesCliente.length === 0) {
         return "Nenhuma atividade registrada";
     }
