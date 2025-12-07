@@ -56,7 +56,7 @@ export function DetailsViewer({ editando, campos, onSalvar, onCancelar }) {
                                         value={valor}
                                         disabled={!editando}
                                         onChange={(e) => editarDados(campo.chave, e.target.value)}
-                                        className="text-gray-800 w-full resize-none" 
+                                        className={`text-gray-800 w-full resize-none ${editando ? "border rounded-md px-1" : ""}`}
                                     />
                                 </div>
                             </Fragment>
