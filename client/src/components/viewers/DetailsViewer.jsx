@@ -1,17 +1,33 @@
-import { Fragment, useState } from "react";
+import { Fragment, useRef, useState } from "react";
 
 import { CardBase } from "../cards/CardBase";
 import { useMediaQuery } from "react-responsive";
 
+import { mascaraTelefone, validarTelefone } from "../../helpers/telefone";
+
 export function DetailsViewer({ editando, campos, onSalvar, onCancelar }) {
     const isMobile = useMediaQuery({ maxWidth: 1023});
     const [ temp, setTemp ] = useState({});
+    const inputTelefone = useRef(null);
     let primeiroCampoEspecial = false;
 
     const editarDados = (campo, valor) => {
+        let valorFinal = valor ?? "";
+
+        if (campo == "telefone") { 
+            inputTelefone.current.setCustomValidity('');
+            valorFinal = valor.replace(/\D/g, '');
+
+            if (valorFinal.length > 11) {
+                return;
+            }
+
+            valorFinal = mascaraTelefone(valorFinal);
+        }
+
         setTemp(prev => ({
             ...prev,
-            [campo]: valor
+            [campo]: valorFinal
         }));
     };
 
@@ -22,6 +38,15 @@ export function DetailsViewer({ editando, campos, onSalvar, onCancelar }) {
 
     const salvar = (e) => {
         e.preventDefault();
+
+        if(temp.telefone) {
+            if (validarTelefone(temp.telefone)) {
+                inputTelefone.current.setCustomValidity("Telefone inválido.");
+                inputTelefone.current.reportValidity();
+                return;
+            }
+        }
+
         onSalvar(temp);
         setTemp({});
     };
@@ -91,6 +116,7 @@ export function DetailsViewer({ editando, campos, onSalvar, onCancelar }) {
                                 <input
                                     id={`campo-${campo.chave}`}
                                     name={campo.chave}
+                                    ref={campo.tipo === "tel" ? inputTelefone : null}
                                     type={campo.tipo}
                                     max={campo.max}
                                     min={campo.min}

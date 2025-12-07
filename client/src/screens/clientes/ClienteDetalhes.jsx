@@ -73,7 +73,7 @@ export function ClienteDetalhes() {
     const camposFormCli = [
         { label: "Nome", chave: "nome", valor: dadosCliente.nome, tipo: "text", autoComplete: "name"},
         { label: "Email", chave: "email", valor: dadosCliente.email, tipo: "email", autoComplete: "email"},
-        { label: "Telefone", chave: "telefone", valor: dadosCliente.telefone, tipo: "tel", autoComplete: "tel", placeholder:"(XX) XXXX-XXXX"},
+        { label: "Telefone", chave: "telefone", valor: dadosCliente.telefone, tipo: "tel", autoComplete: "tel", placeholder:"(XX) XXXX-XXXX" },
         { label: "Data Nascimento", chave: "dataNascimento", valor: dadosCliente.dataNascimento, tipo: "date", autoComplete: "birthdate", max: dataMax},
         { label: "Tipo", chave: "tipo", valor: dadosCliente.tipo, opcoes: [
             { label: "Pessoa Jurídica", valor: "PJ" },
