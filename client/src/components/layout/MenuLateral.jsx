@@ -1,4 +1,4 @@
-import { ChartPie, Layers, UsersRound, FileChartColumnIncreasing, ListTodo, Settings} from "lucide-react";
+import { ChartPie, Layers, UsersRound, FileText, ListTodo, Settings} from "lucide-react";
 import { useState,  } from "react";
 import { NavLink } from "react-router-dom";
 
@@ -6,7 +6,7 @@ const itensMenu = [
     {label: "Dashboard", navegateTo: "/", icon: <ChartPie/>, IconOnActive: "chart-pie-active"},
     {label: "Clientes", navegateTo: "/clientes", icon: <UsersRound/> , IconOnActive: "users-round-active"},
     {label: "Etapas", navegateTo: "/etapas", icon: <Layers/>, IconOnActive: "layers-active"},
-    {label: "Relatórios", navegateTo: "/relatorios", icon: <FileChartColumnIncreasing/>, IconOnActive: "file-chart-column-increasing-active"},
+    {label: "Relatórios", navegateTo: "/relatorios", icon: <FileText/>, IconOnActive: "file-text-active"},
     {label: "Tarefas", navegateTo: "/tarefas", icon: <ListTodo />, IconOnActive: "list-todo-active"},
     {label: "Configurações", navegateTo: "/configuracoes", icon: <Settings/>, IconOnActive: "settings-active"}
 ];
