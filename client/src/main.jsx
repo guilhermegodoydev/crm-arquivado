@@ -14,6 +14,7 @@ import { ClienteDetalhes } from "./screens/clientes/ClienteDetalhes.jsx";
 import { PaginaErro } from "./screens/PaginaErro.jsx";
 import { Configuracoes } from "./screens/Configuracoes.jsx";
 import { Teste } from "./screens/Teste.jsx";
+import { TarefasGeral } from "./screens/TarefasGeral.jsx";
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,11 @@ const router = createBrowserRouter([
         path: "/configuracoes",
         element: <Configuracoes/>,
         handle: { title: "Configurações"}
+      },
+      {
+        path: "/tarefas",
+        element: <TarefasGeral/>,
+        handle: { title: "Minhas tarefas"}
       }
     ]
   }

@@ -1,5 +1,5 @@
-import { ChartPie, Layers, UsersRound, FileChartColumnIncreasing, Menu, Settings} from "lucide-react";
-import { useEffect, useState,  } from "react";
+import { ChartPie, Layers, UsersRound, FileChartColumnIncreasing, ListTodo, Settings} from "lucide-react";
+import { useState,  } from "react";
 import { NavLink } from "react-router-dom";
 
 const itensMenu = [
@@ -8,6 +8,7 @@ const itensMenu = [
     {label: "Etapas", navegateTo: "/etapas", icon: <Layers/>, IconOnActive: "layers-active"},
     {label: "Relatórios", navegateTo: "/relatorios", icon: <FileChartColumnIncreasing/>, IconOnActive: "file-chart-column-increasing-active"},
     {label: "Configurações", navegateTo: "/configuracoes", icon: <Settings/>, IconOnActive: "settings-active"},
+    {label: "Tarefas", navegateTo: "/tarefas", icon: <ListTodo />, IconOnActive: "list-todo-active"}
 ];
 
 const transicaoOpacidade = "transition-opacity duration-300 ease-in-out";
@@ -40,7 +41,7 @@ export function MenuLateral() {
                                 <NavLink to={item.navegateTo}>
                                     {({ isActive }) => (
                                         <div className="flex gap-3">
-                                            {isActive ? 
+                                            {isActive ?
                                                 <img 
                                                     src={`src/assets/icons/menuLateral/${item.IconOnActive}.svg`} 
                                                     className="w-6" 
