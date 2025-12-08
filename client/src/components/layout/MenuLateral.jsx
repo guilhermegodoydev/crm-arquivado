@@ -7,8 +7,8 @@ const itensMenu = [
     {label: "Clientes", navegateTo: "/clientes", icon: <UsersRound/> , IconOnActive: "users-round-active"},
     {label: "Etapas", navegateTo: "/etapas", icon: <Layers/>, IconOnActive: "layers-active"},
     {label: "Relatórios", navegateTo: "/relatorios", icon: <FileChartColumnIncreasing/>, IconOnActive: "file-chart-column-increasing-active"},
-    {label: "Configurações", navegateTo: "/configuracoes", icon: <Settings/>, IconOnActive: "settings-active"},
-    {label: "Tarefas", navegateTo: "/tarefas", icon: <ListTodo />, IconOnActive: "list-todo-active"}
+    {label: "Tarefas", navegateTo: "/tarefas", icon: <ListTodo />, IconOnActive: "list-todo-active"},
+    {label: "Configurações", navegateTo: "/configuracoes", icon: <Settings/>, IconOnActive: "settings-active"}
 ];
 
 const transicaoOpacidade = "transition-opacity duration-300 ease-in-out";
