@@ -1,0 +1,2452 @@
+[
+    {
+        "id": 1,
+        "titulo": "Envio de proposta atualizada",
+        "dataLimite": "2025-01-20",
+        "dataConclusao": "2025-01-20",
+        "descricao": "Envio de proposta atualizada",
+        "idCliente": 1,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 2,
+        "titulo": "Reunião de alinhamento comercial",
+        "dataLimite": "2025-01-15",
+        "dataConclusao": "2025-01-15",
+        "descricao": "Reunião de alinhamento comercial",
+        "idCliente": 1,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 3,
+        "titulo": "Ligação de follow-up",
+        "dataLimite": "2025-01-22",
+        "dataConclusao": null,
+        "descricao": "Confirmação de detalhes do contrato",
+        "idCliente": 1,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 4,
+        "titulo": "Envio de material complementar",
+        "dataLimite": "2025-01-25",
+        "dataConclusao": null,
+        "descricao": "Material sobre novos pacotes de expansão",
+        "idCliente": 1,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 5,
+        "titulo": "Apresentação inicial",
+        "dataLimite": "2025-01-17",
+        "dataConclusao": "2025-01-17",
+        "descricao": "Apresentação inicial",
+        "idCliente": 2,
+        "tipo": "ligação",
+        "status": "Concluído"
+    },
+    {
+        "id": 6,
+        "titulo": "Abertura do relacionamento",
+        "dataLimite": "2025-01-10",
+        "dataConclusao": "2025-01-10",
+        "descricao": "Abertura do relacionamento",
+        "idCliente": 2,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 7,
+        "titulo": "Envio de proposta personalizada",
+        "dataLimite": "2025-01-20",
+        "dataConclusao": null,
+        "descricao": "Proposta detalhada conforme preferências do cliente",
+        "idCliente": 2,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 8,
+        "titulo": "Revisão de contrato",
+        "dataLimite": "2025-01-19",
+        "dataConclusao": "2025-01-19",
+        "descricao": "Revisão de contrato",
+        "idCliente": 3,
+        "tipo": "ligação",
+        "status": "Concluído"
+    },
+    {
+        "id": 9,
+        "titulo": "Proposta enviada",
+        "dataLimite": "2025-01-02",
+        "dataConclusao": "2025-01-02",
+        "descricao": "Proposta enviada",
+        "idCliente": 3,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 10,
+        "titulo": "Confirmação de recebimento de proposta",
+        "dataLimite": "2025-01-05",
+        "dataConclusao": null,
+        "descricao": "Cliente confirmou recebimento do documento",
+        "idCliente": 3,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 11,
+        "titulo": "Discussão sobre integrações",
+        "dataLimite": "2025-01-11",
+        "dataConclusao": "2025-01-11",
+        "descricao": "Discussão sobre integrações",
+        "idCliente": 4,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 12,
+        "titulo": "Envio de documentação técnica",
+        "dataLimite": "2024-12-30",
+        "dataConclusao": "2024-12-30",
+        "descricao": "Envio de documentação técnica",
+        "idCliente": 4,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 13,
+        "titulo": "Follow-up de integração",
+        "dataLimite": "2025-01-18",
+        "dataConclusao": null,
+        "descricao": "Verificação de andamento da integração",
+        "idCliente": 4,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 14,
+        "titulo": "Treinamento interno",
+        "dataLimite": "2025-01-25",
+        "dataConclusao": null,
+        "descricao": "Treinamento da equipe sobre novas integrações",
+        "idCliente": 4,
+        "tipo": "reunião",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 15,
+        "titulo": "Confirmação de interesse",
+        "dataLimite": "2025-01-16",
+        "dataConclusao": "2025-01-16",
+        "descricao": "Confirmação de interesse",
+        "idCliente": 5,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 16,
+        "titulo": "Apresentação de serviços",
+        "dataLimite": "2025-01-09",
+        "dataConclusao": "2025-01-09",
+        "descricao": "Apresentação de serviços",
+        "idCliente": 5,
+        "tipo": "ligação",
+        "status": "Concluído"
+    },
+    {
+        "id": 17,
+        "titulo": "Envio de proposta complementar",
+        "dataLimite": "2025-01-20",
+        "dataConclusao": null,
+        "descricao": "Proposta com novos pacotes para avaliação",
+        "idCliente": 5,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 18,
+        "titulo": "Negociação de contrato anual",
+        "dataLimite": "2025-01-14",
+        "dataConclusao": "2025-01-14",
+        "descricao": "Negociação de contrato anual",
+        "idCliente": 6,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 19,
+        "titulo": "Envio de proposta preliminar",
+        "dataLimite": "2025-01-05",
+        "dataConclusao": "2025-01-05",
+        "descricao": "Envio de proposta preliminar",
+        "idCliente": 6,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 20,
+        "titulo": "Follow-up de contrato",
+        "dataLimite": "2025-01-21",
+        "dataConclusao": null,
+        "descricao": "Verificação de alinhamento do contrato anual",
+        "idCliente": 6,
+        "tipo": "ligação",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 21,
+        "titulo": "Esclarecimento sobre funcionalidades",
+        "dataLimite": "2025-01-13",
+        "dataConclusao": "2025-01-13",
+        "descricao": "Esclarecimento sobre funcionalidades",
+        "idCliente": 7,
+        "tipo": "ligação",
+        "status": "Concluído"
+    },
+    {
+        "id": 22,
+        "titulo": "Envio de tutorial inicial",
+        "dataLimite": "2025-01-07",
+        "dataConclusao": "2025-01-07",
+        "descricao": "Envio de tutorial inicial",
+        "idCliente": 7,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 23,
+        "titulo": "Follow-up pós-tutorial",
+        "dataLimite": "2025-01-15",
+        "dataConclusao": null,
+        "descricao": "Verificar entendimento das funcionalidades apresentadas",
+        "idCliente": 7,
+        "tipo": "ligação",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 24,
+        "titulo": "Discussão sobre novas funcionalidades",
+        "dataLimite": "2025-01-09",
+        "dataConclusao": "2025-01-09",
+        "descricao": "Discussão sobre novas funcionalidades",
+        "idCliente": 8,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 25,
+        "titulo": "Envio de proposta detalhada",
+        "dataLimite": "2025-01-02",
+        "dataConclusao": "2025-01-02",
+        "descricao": "Envio de proposta detalhada",
+        "idCliente": 8,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 26,
+        "titulo": "Follow-up de interesse",
+        "dataLimite": "2025-01-18",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse nas novas funcionalidades propostas",
+        "idCliente": 8,
+        "tipo": "ligação",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 27,
+        "titulo": "Confirmação de renovação de contrato",
+        "dataLimite": "2025-01-21",
+        "dataConclusao": "2025-01-21",
+        "descricao": "Confirmação de renovação de contrato",
+        "idCliente": 9,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 28,
+        "titulo": "Esclarecimento sobre novos pacotes",
+        "dataLimite": "2025-01-10",
+        "dataConclusao": "2025-01-10",
+        "descricao": "Esclarecimento sobre novos pacotes",
+        "idCliente": 9,
+        "tipo": "ligação",
+        "status": "Concluído"
+    },
+    {
+        "id": 29,
+        "titulo": "Envio de proposta de upgrades",
+        "dataLimite": "2025-01-25",
+        "dataConclusao": null,
+        "descricao": "Proposta de planos avançados para análise",
+        "idCliente": 9,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 30,
+        "titulo": "Apresentação de novos serviços",
+        "dataLimite": "2025-01-05",
+        "dataConclusao": "2025-01-05",
+        "descricao": "Apresentação de novos serviços",
+        "idCliente": 10,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 31,
+        "titulo": "Envio de material adicional",
+        "dataLimite": "2025-01-01",
+        "dataConclusao": "2025-01-01",
+        "descricao": "Envio de material adicional",
+        "idCliente": 10,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 32,
+        "titulo": "Follow-up sobre novos serviços",
+        "dataLimite": "2025-01-15",
+        "dataConclusao": null,
+        "descricao": "Verificar interesse e dúvidas sobre os novos serviços apresentados",
+        "idCliente": 10,
+        "tipo": "ligação",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 33,
+        "titulo": "Reunião de alinhamento final",
+        "dataLimite": "2025-01-18",
+        "dataConclusao": null,
+        "descricao": "Alinhar todos os pontos do contrato e próximos passos",
+        "idCliente": 10,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 34,
+        "titulo": "Atualização sobre serviços de logística",
+        "dataLimite": "2025-01-15",
+        "dataConclusao": "2025-01-15",
+        "descricao": "Atualização sobre serviços de logística",
+        "idCliente": 11,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 35,
+        "titulo": "Verificação de novos pacotes",
+        "dataLimite": "2025-01-07",
+        "dataConclusao": "2025-01-07",
+        "descricao": "Verificação de novos pacotes",
+        "idCliente": 11,
+        "tipo": "ligação",
+        "status": "Concluído"
+    },
+    {
+        "id": 36,
+        "titulo": "Follow-up sobre custos logísticos",
+        "dataLimite": "2025-01-22",
+        "dataConclusao": null,
+        "descricao": "Verificar se há possibilidade de redução de custos",
+        "idCliente": 11,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 37,
+        "titulo": "Reunião de alinhamento estratégico",
+        "dataLimite": "2025-01-28",
+        "dataConclusao": null,
+        "descricao": "Definir próximos passos para otimização de transporte",
+        "idCliente": 11,
+        "tipo": "reunião",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 38,
+        "titulo": "Discussão sobre ampliação de contrato",
+        "dataLimite": "2025-01-10",
+        "dataConclusao": "2025-01-10",
+        "descricao": "Discussão sobre ampliação de contrato",
+        "idCliente": 12,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 39,
+        "titulo": "Proposta enviada com novos pacotes",
+        "dataLimite": "2025-01-02",
+        "dataConclusao": "2025-01-02",
+        "descricao": "Proposta enviada com novos pacotes",
+        "idCliente": 12,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 40,
+        "titulo": "Follow-up sobre expansão regional",
+        "dataLimite": "2025-02-01",
+        "dataConclusao": null,
+        "descricao": "Verificar interesse em expansão para outras regiões",
+        "idCliente": 12,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 41,
+        "titulo": "Reunião de kick-off do projeto",
+        "dataLimite": "2025-01-12",
+        "dataConclusao": "2025-01-12",
+        "descricao": "Alinhar objetivos e equipe do projeto",
+        "idCliente": 13,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 42,
+        "titulo": "Envio de documentação inicial",
+        "dataLimite": "2025-01-14",
+        "dataConclusao": "2025-01-14",
+        "descricao": "Documentação técnica do projeto enviada",
+        "idCliente": 13,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 43,
+        "titulo": "Follow-up de alinhamento",
+        "dataLimite": "2025-01-20",
+        "dataConclusao": null,
+        "descricao": "Confirmar entendimento da documentação enviada",
+        "idCliente": 13,
+        "tipo": "ligação",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 44,
+        "titulo": "Reunião de revisão de requisitos",
+        "dataLimite": "2025-01-25",
+        "dataConclusao": null,
+        "descricao": "Revisar todos os requisitos do projeto com o cliente",
+        "idCliente": 14,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 45,
+        "titulo": "Envio de proposta de integração",
+        "dataLimite": "2025-01-18",
+        "dataConclusao": "2025-01-18",
+        "descricao": "Proposta detalhada para integração de sistemas",
+        "idCliente": 14,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 46,
+        "titulo": "Follow-up sobre integração",
+        "dataLimite": "2025-01-28",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse do cliente na proposta de integração",
+        "idCliente": 14,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 47,
+        "titulo": "Apresentação de relatório trimestral",
+        "dataLimite": "2025-01-15",
+        "dataConclusao": "2025-01-15",
+        "descricao": "Apresentar resultados do último trimestre",
+        "idCliente": 15,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 48,
+        "titulo": "Envio de relatório detalhado",
+        "dataLimite": "2025-01-16",
+        "dataConclusao": "2025-01-16",
+        "descricao": "Enviar relatório completo por email",
+        "idCliente": 15,
+        "tipo": "email",
+        "status": "Concluído"
+    },
+    {
+        "id": 49,
+        "titulo": "Follow-up pós-relatório",
+        "dataLimite": "2025-01-22",
+        "dataConclusao": null,
+        "descricao": "Verificar dúvidas ou solicitações adicionais do cliente",
+        "idCliente": 15,
+        "tipo": "ligação",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 50,
+        "titulo": "Reunião de planejamento anual",
+        "dataLimite": "2025-01-30",
+        "dataConclusao": null,
+        "descricao": "Definir metas e estratégias para o próximo ano",
+        "idCliente": 16,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 51,
+        "titulo": "Envio de proposta de TI personalizada",
+        "dataLimite": "2025-01-26",
+        "dataConclusao": null,
+        "descricao": "Proposta detalhada conforme necessidades de expansão",
+        "idCliente": 16,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 52,
+        "titulo": "Follow-up sobre proposta de TI",
+        "dataLimite": "2025-02-02",
+        "dataConclusao": null,
+        "descricao": "Verificar interesse e dúvidas do cliente",
+        "idCliente": 16,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 53,
+        "titulo": "Reunião de fechamento de contrato",
+        "dataLimite": "2025-01-28",
+        "dataConclusao": "2025-01-28",
+        "descricao": "Alinhar condições finais do contrato",
+        "idCliente": 17,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 54,
+        "titulo": "Envio de contrato assinado",
+        "dataLimite": "2025-01-29",
+        "dataConclusao": null,
+        "descricao": "Enviar contrato assinado para registro",
+        "idCliente": 17,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 55,
+        "titulo": "Follow-up sobre contrato",
+        "dataLimite": "2025-02-03",
+        "dataConclusao": null,
+        "descricao": "Confirmar recebimento e dúvidas do cliente",
+        "idCliente": 17,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 56,
+        "titulo": "Reunião de alinhamento de marketplace",
+        "dataLimite": "2025-01-20",
+        "dataConclusao": "2025-01-20",
+        "descricao": "Alinhar objetivos de expansão da plataforma",
+        "idCliente": 18,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 57,
+        "titulo": "Envio de proposta de expansão",
+        "dataLimite": "2025-01-22",
+        "dataConclusao": null,
+        "descricao": "Proposta detalhada para novos recursos e usuários",
+        "idCliente": 18,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 58,
+        "titulo": "Follow-up sobre proposta de expansão",
+        "dataLimite": "2025-01-28",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse e próximos passos",
+        "idCliente": 18,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 59,
+        "titulo": "Apresentação de novos contratos comerciais",
+        "dataLimite": "2025-01-18",
+        "dataConclusao": "2025-01-18",
+        "descricao": "Apresentar opções de novos acordos e parcerias",
+        "idCliente": 19,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 60,
+        "titulo": "Envio de proposta formal",
+        "dataLimite": "2025-01-20",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta detalhada para análise",
+        "idCliente": 19,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 61,
+        "titulo": "Follow-up sobre proposta comercial",
+        "dataLimite": "2025-01-28",
+        "dataConclusao": null,
+        "descricao": "Verificar dúvidas e aprovação do cliente",
+        "idCliente": 19,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 62,
+        "titulo": "Reunião de planejamento educacional",
+        "dataLimite": "2025-01-22",
+        "dataConclusao": "2025-01-22",
+        "descricao": "Alinhar estratégias de capacitação online",
+        "idCliente": 20,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 63,
+        "titulo": "Envio de proposta educacional",
+        "dataLimite": "2025-01-25",
+        "dataConclusao": null,
+        "descricao": "Proposta detalhada para expansão da plataforma",
+        "idCliente": 20,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 64,
+        "titulo": "Follow-up sobre proposta educacional",
+        "dataLimite": "2025-02-01",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse e próximos passos",
+        "idCliente": 20,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 65,
+        "titulo": "Reunião de kickoff do projeto",
+        "dataLimite": "2025-01-24",
+        "dataConclusao": "2025-01-24",
+        "descricao": "Alinhar objetivos iniciais do projeto",
+        "idCliente": 21,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 66,
+        "titulo": "Envio de briefing detalhado",
+        "dataLimite": "2025-01-26",
+        "dataConclusao": null,
+        "descricao": "Enviar briefing detalhado para aprovação",
+        "idCliente": 21,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 67,
+        "titulo": "Follow-up sobre briefing",
+        "dataLimite": "2025-01-30",
+        "dataConclusao": null,
+        "descricao": "Confirmar recebimento e esclarecimentos",
+        "idCliente": 21,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 68,
+        "titulo": "Reunião de validação de estratégia",
+        "dataLimite": "2025-02-02",
+        "dataConclusao": null,
+        "descricao": "Validar estratégia proposta para novos serviços",
+        "idCliente": 22,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 69,
+        "titulo": "Envio de proposta final",
+        "dataLimite": "2025-02-05",
+        "dataConclusao": null,
+        "descricao": "Proposta final com ajustes solicitados",
+        "idCliente": 22,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 70,
+        "titulo": "Follow-up sobre aprovação",
+        "dataLimite": "2025-02-10",
+        "dataConclusao": null,
+        "descricao": "Confirmar aprovação da proposta final",
+        "idCliente": 22,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 71,
+        "titulo": "Apresentação de roadmap",
+        "dataLimite": "2025-02-01",
+        "dataConclusao": "2025-02-01",
+        "descricao": "Apresentar roadmap de implementação de soluções",
+        "idCliente": 23,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 72,
+        "titulo": "Envio de documentação técnica",
+        "dataLimite": "2025-02-03",
+        "dataConclusao": null,
+        "descricao": "Enviar documentação técnica detalhada",
+        "idCliente": 23,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 73,
+        "titulo": "Follow-up sobre implementação",
+        "dataLimite": "2025-02-08",
+        "dataConclusao": null,
+        "descricao": "Verificar andamento da implementação",
+        "idCliente": 23,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 74,
+        "titulo": "Reunião de planejamento estratégico",
+        "dataLimite": "2025-02-02",
+        "dataConclusao": "2025-02-02",
+        "descricao": "Planejar próximos passos do projeto conjunto",
+        "idCliente": 24,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 75,
+        "titulo": "Envio de proposta de melhoria",
+        "dataLimite": "2025-02-06",
+        "dataConclusao": null,
+        "descricao": "Proposta detalhada com melhorias sugeridas",
+        "idCliente": 24,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 76,
+        "titulo": "Follow-up sobre melhorias",
+        "dataLimite": "2025-02-12",
+        "dataConclusao": null,
+        "descricao": "Confirmar aceitação das melhorias propostas",
+        "idCliente": 24,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 77,
+        "titulo": "Reunião inicial de briefing",
+        "dataLimite": "2025-02-03",
+        "dataConclusao": "2025-02-03",
+        "descricao": "Alinhar expectativas e objetivos do projeto",
+        "idCliente": 25,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 78,
+        "titulo": "Envio de proposta personalizada",
+        "dataLimite": "2025-02-07",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta detalhada conforme requisitos do cliente",
+        "idCliente": 25,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 79,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-02-10",
+        "dataConclusao": null,
+        "descricao": "Confirmar recebimento e esclarecimentos da proposta",
+        "idCliente": 25,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 80,
+        "titulo": "Reunião de validação do plano",
+        "dataLimite": "2025-02-12",
+        "dataConclusao": null,
+        "descricao": "Validar plano de ação com o cliente",
+        "idCliente": 25,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 81,
+        "titulo": "Envio de documentação complementar",
+        "dataLimite": "2025-02-15",
+        "dataConclusao": null,
+        "descricao": "Enviar documentação de suporte ao cliente",
+        "idCliente": 26,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 82,
+        "titulo": "Follow-up sobre documentação",
+        "dataLimite": "2025-02-18",
+        "dataConclusao": null,
+        "descricao": "Verificar entendimento e dúvidas do cliente",
+        "idCliente": 26,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 83,
+        "titulo": "Reunião de apresentação de resultados",
+        "dataLimite": "2025-02-20",
+        "dataConclusao": "2025-02-20",
+        "descricao": "Apresentar resultados iniciais do projeto",
+        "idCliente": 26,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 84,
+        "titulo": "Envio de ajustes solicitados",
+        "dataLimite": "2025-02-23",
+        "dataConclusao": null,
+        "descricao": "Enviar ajustes solicitados pelo cliente",
+        "idCliente": 26,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 85,
+        "titulo": "Reunião de alinhamento final",
+        "dataLimite": "2025-02-25",
+        "dataConclusao": null,
+        "descricao": "Alinhar próximos passos após ajustes",
+        "idCliente": 27,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 86,
+        "titulo": "Envio de proposta inicial",
+        "dataLimite": "2025-02-28",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta inicial para análise do cliente",
+        "idCliente": 27,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 87,
+        "titulo": "Follow-up de aprovação",
+        "dataLimite": "2025-03-03",
+        "dataConclusao": null,
+        "descricao": "Confirmar aprovação da proposta inicial",
+        "idCliente": 27,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 88,
+        "titulo": "Reunião de briefing inicial",
+        "dataLimite": "2025-03-05",
+        "dataConclusao": "2025-03-05",
+        "descricao": "Alinhar objetivos do projeto com o cliente",
+        "idCliente": 28,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 89,
+        "titulo": "Envio de proposta detalhada",
+        "dataLimite": "2025-03-08",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta conforme necessidades levantadas",
+        "idCliente": 28,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 90,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Confirmar recebimento e tirar dúvidas do cliente",
+        "idCliente": 28,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 91,
+        "titulo": "Reunião de validação de escopo",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Validar escopo do projeto antes do início",
+        "idCliente": 28,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 92,
+        "titulo": "Envio de documentação complementar",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Enviar documentação técnica de suporte",
+        "idCliente": 28,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 93,
+        "titulo": "Reunião de alinhamento de projeto",
+        "dataLimite": "2025-03-06",
+        "dataConclusao": null,
+        "descricao": "Definir prioridades e cronograma inicial",
+        "idCliente": 29,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 94,
+        "titulo": "Envio de proposta personalizada",
+        "dataLimite": "2025-03-09",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta detalhada conforme necessidades do cliente",
+        "idCliente": 29,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 95,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Verificar interesse e esclarecer dúvidas",
+        "idCliente": 29,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 96,
+        "titulo": "Reunião de validação técnica",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Confirmar viabilidade técnica do projeto",
+        "idCliente": 29,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 97,
+        "titulo": "Envio de documentação complementar",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Fornecer documentação técnica adicional",
+        "idCliente": 29,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 98,
+        "titulo": "Apresentação de novos serviços",
+        "dataLimite": "2025-03-07",
+        "dataConclusao": null,
+        "descricao": "Demonstrar os novos serviços disponíveis",
+        "idCliente": 30,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 99,
+        "titulo": "Envio de material de apoio",
+        "dataLimite": "2025-03-10",
+        "dataConclusao": null,
+        "descricao": "Enviar material complementar sobre os serviços",
+        "idCliente": 30,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 100,
+        "titulo": "Follow-up sobre interesse do cliente",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Verificar interesse e dúvidas do cliente",
+        "idCliente": 30,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 101,
+        "titulo": "Reunião de negociação de contrato",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Discutir termos e condições do contrato",
+        "idCliente": 30,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 102,
+        "titulo": "Envio de proposta inicial",
+        "dataLimite": "2025-03-05",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta com serviços recomendados",
+        "idCliente": 31,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 103,
+        "titulo": "Reunião de alinhamento de projeto",
+        "dataLimite": "2025-03-08",
+        "dataConclusao": null,
+        "descricao": "Alinhar objetivos do projeto e expectativas",
+        "idCliente": 31,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 104,
+        "titulo": "Follow-up sobre proposta enviada",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Confirmar recebimento e tirar dúvidas",
+        "idCliente": 31,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 105,
+        "titulo": "Envio de material complementar",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Enviar materiais explicativos sobre os serviços",
+        "idCliente": 31,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 106,
+        "titulo": "Revisão de contrato",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Revisar termos antes da assinatura",
+        "idCliente": 31,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 107,
+        "titulo": "Confirmação de assinatura de contrato",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura do contrato e próximos passos",
+        "idCliente": 31,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 108,
+        "titulo": "Envio de proposta de expansão",
+        "dataLimite": "2025-03-06",
+        "dataConclusao": null,
+        "descricao": "Propor novos pacotes e serviços adicionais",
+        "idCliente": 32,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 109,
+        "titulo": "Reunião de apresentação de novos pacotes",
+        "dataLimite": "2025-03-10",
+        "dataConclusao": null,
+        "descricao": "Apresentar opções de expansão e benefícios",
+        "idCliente": 32,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 110,
+        "titulo": "Follow-up sobre interesse do cliente",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Confirmar quais pacotes são de interesse",
+        "idCliente": 32,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 111,
+        "titulo": "Envio de material de suporte",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Enviar documentação explicativa",
+        "idCliente": 32,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 112,
+        "titulo": "Negociação de termos do contrato",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Discutir ajustes finais antes da assinatura",
+        "idCliente": 32,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 113,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura do contrato",
+        "idCliente": 32,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 114,
+        "titulo": "Reunião inicial de briefing",
+        "dataLimite": "2025-03-07",
+        "dataConclusao": null,
+        "descricao": "Coletar informações iniciais sobre necessidades do cliente",
+        "idCliente": 33,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 115,
+        "titulo": "Envio de proposta preliminar",
+        "dataLimite": "2025-03-09",
+        "dataConclusao": null,
+        "descricao": "Apresentar proposta inicial de serviços",
+        "idCliente": 33,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 116,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Confirmar dúvidas e interesse",
+        "idCliente": 33,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 117,
+        "titulo": "Revisão de contrato",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Revisar condições e cláusulas",
+        "idCliente": 33,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 118,
+        "titulo": "Confirmação final de contratação",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e início dos serviços",
+        "idCliente": 33,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 119,
+        "titulo": "Envio de proposta de serviços",
+        "dataLimite": "2025-03-08",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta detalhada com pacotes recomendados",
+        "idCliente": 34,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 120,
+        "titulo": "Reunião de alinhamento comercial",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Alinhar expectativas e prioridades do cliente",
+        "idCliente": 34,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 121,
+        "titulo": "Follow-up sobre proposta enviada",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Verificar dúvidas e interesse do cliente",
+        "idCliente": 34,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 122,
+        "titulo": "Envio de material explicativo",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Enviar materiais complementares sobre serviços",
+        "idCliente": 34,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 123,
+        "titulo": "Reunião de revisão de contrato",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Revisar termos e condições antes da assinatura",
+        "idCliente": 34,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 124,
+        "titulo": "Confirmação de assinatura de contrato",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e próximos passos",
+        "idCliente": 34,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 125,
+        "titulo": "Envio de proposta de expansão",
+        "dataLimite": "2025-03-10",
+        "dataConclusao": null,
+        "descricao": "Apresentar pacotes adicionais e benefícios",
+        "idCliente": 35,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 126,
+        "titulo": "Reunião de apresentação de pacotes",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Apresentar opções de expansão e discutir necessidades",
+        "idCliente": 35,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 127,
+        "titulo": "Follow-up sobre interesse do cliente",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Verificar quais pacotes são de interesse",
+        "idCliente": 35,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 128,
+        "titulo": "Envio de material de suporte",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Enviar documentação explicativa",
+        "idCliente": 35,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 129,
+        "titulo": "Revisão de contrato final",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Revisar condições antes da assinatura final",
+        "idCliente": 35,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 130,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura do contrato e início dos serviços",
+        "idCliente": 35,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 131,
+        "titulo": "Reunião inicial de briefing",
+        "dataLimite": "2025-03-09",
+        "dataConclusao": null,
+        "descricao": "Coletar informações sobre o projeto do cliente",
+        "idCliente": 36,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 132,
+        "titulo": "Envio de proposta preliminar",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Apresentar proposta inicial de serviços",
+        "idCliente": 36,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 133,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Confirmar dúvidas e interesse do cliente",
+        "idCliente": 36,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 134,
+        "titulo": "Revisão de contrato",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Revisar condições e cláusulas",
+        "idCliente": 36,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 135,
+        "titulo": "Confirmação final de contratação",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e início dos serviços",
+        "idCliente": 36,
+        "tipo": "email",
+        "status": "A Fazer"
+    }, 
+    {
+        "id": 136,
+        "titulo": "Envio de proposta inicial",
+        "dataLimite": "2025-03-10",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta detalhada com pacotes sugeridos",
+        "idCliente": 37,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 137,
+        "titulo": "Reunião de alinhamento de necessidades",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Discutir necessidades específicas do cliente",
+        "idCliente": 37,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 138,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Verificar interesse e esclarecimento de dúvidas",
+        "idCliente": 37,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 139,
+        "titulo": "Envio de material complementar",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Enviar material de apoio sobre pacotes",
+        "idCliente": 37,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 140,
+        "titulo": "Revisão de contrato preliminar",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Revisar contrato inicial antes da assinatura",
+        "idCliente": 37,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 141,
+        "titulo": "Confirmação de assinatura",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e próximos passos",
+        "idCliente": 37,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 142,
+        "titulo": "Reunião de briefing inicial",
+        "dataLimite": "2025-03-11",
+        "dataConclusao": null,
+        "descricao": "Coletar informações sobre projeto do cliente",
+        "idCliente": 38,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 143,
+        "titulo": "Envio de proposta personalizada",
+        "dataLimite": "2025-03-13",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta de acordo com necessidades levantadas",
+        "idCliente": 38,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 144,
+        "titulo": "Follow-up sobre interesse",
+        "dataLimite": "2025-03-16",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse do cliente e esclarecer dúvidas",
+        "idCliente": 38,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 145,
+        "titulo": "Revisão de contrato final",
+        "dataLimite": "2025-03-19",
+        "dataConclusao": null,
+        "descricao": "Revisar contrato antes da assinatura final",
+        "idCliente": 38,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 146,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-21",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e iniciar implementação",
+        "idCliente": 38,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 147,
+        "titulo": "Envio de proposta inicial",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta de serviços personalizados",
+        "idCliente": 39,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 148,
+        "titulo": "Reunião de alinhamento comercial",
+        "dataLimite": "2025-03-14",
+        "dataConclusao": null,
+        "descricao": "Discutir expectativas do cliente e prioridades",
+        "idCliente": 39,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 149,
+        "titulo": "Follow-up de proposta",
+        "dataLimite": "2025-03-17",
+        "dataConclusao": null,
+        "descricao": "Verificar interesse do cliente e esclarecer dúvidas",
+        "idCliente": 39,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 150,
+        "titulo": "Envio de material adicional",
+        "dataLimite": "2025-03-19",
+        "dataConclusao": null,
+        "descricao": "Enviar materiais explicativos sobre serviços",
+        "idCliente": 39,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 151,
+        "titulo": "Revisão de contrato preliminar",
+        "dataLimite": "2025-03-21",
+        "dataConclusao": null,
+        "descricao": "Revisar termos iniciais antes da assinatura",
+        "idCliente": 39,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 152,
+        "titulo": "Reunião de kickoff",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": "2025-03-12",
+        "descricao": "Início do projeto e alinhamento de expectativas",
+        "idCliente": 40,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 153,
+        "titulo": "Envio de proposta detalhada",
+        "dataLimite": "2025-03-14",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta de serviços adaptados às necessidades",
+        "idCliente": 40,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 154,
+        "titulo": "Follow-up de proposta",
+        "dataLimite": "2025-03-16",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse e esclarecer dúvidas",
+        "idCliente": 40,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 155,
+        "titulo": "Revisão de contrato",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Revisar termos antes da assinatura final",
+        "idCliente": 40,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 156,
+        "titulo": "Confirmação de assinatura",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e próximos passos do projeto",
+        "idCliente": 40,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 157,
+        "titulo": "Envio de material informativo",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Enviar material de suporte para o cliente",
+        "idCliente": 40,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 158,
+        "titulo": "Reunião de alinhamento estratégico",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": "2025-03-12",
+        "descricao": "Definir metas e prioridades do cliente",
+        "idCliente": 41,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 159,
+        "titulo": "Envio de proposta inicial",
+        "dataLimite": "2025-03-14",
+        "dataConclusao": null,
+        "descricao": "Proposta detalhada conforme briefing",
+        "idCliente": 41,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 160,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-16",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse do cliente",
+        "idCliente": 41,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 161,
+        "titulo": "Revisão de contrato preliminar",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Verificar pontos importantes antes da assinatura",
+        "idCliente": 41,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 162,
+        "titulo": "Envio de documentação complementar",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Enviar material adicional para suporte",
+        "idCliente": 41,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 163,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e planejar implementação",
+        "idCliente": 41,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 164,
+        "titulo": "Reunião inicial de alinhamento",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": "2025-03-12",
+        "descricao": "Alinhar expectativas do cliente",
+        "idCliente": 42,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 165,
+        "titulo": "Envio de proposta detalhada",
+        "dataLimite": "2025-03-14",
+        "dataConclusao": null,
+        "descricao": "Proposta com pacotes personalizados",
+        "idCliente": 42,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 166,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-16",
+        "dataConclusao": null,
+        "descricao": "Verificar interesse e dúvidas",
+        "idCliente": 42,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 167,
+        "titulo": "Revisão de contrato preliminar",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Revisar cláusulas importantes antes da assinatura",
+        "idCliente": 42,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 168,
+        "titulo": "Envio de documentação complementar",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Enviar material adicional para suporte do cliente",
+        "idCliente": 42,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 169,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e planejar implementação",
+        "idCliente": 42,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 170,
+        "titulo": "Kickoff do projeto",
+        "dataLimite": "2025-03-13",
+        "dataConclusao": "2025-03-13",
+        "descricao": "Início oficial do projeto com equipe do cliente",
+        "idCliente": 43,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 171,
+        "titulo": "Envio de proposta inicial",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta conforme briefing recebido",
+        "idCliente": 43,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 172,
+        "titulo": "Follow-up de proposta",
+        "dataLimite": "2025-03-17",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse do cliente na proposta",
+        "idCliente": 43,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 173,
+        "titulo": "Revisão de contrato preliminar",
+        "dataLimite": "2025-03-19",
+        "dataConclusao": null,
+        "descricao": "Revisar contrato antes da assinatura final",
+        "idCliente": 43,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 174,
+        "titulo": "Envio de documentação adicional",
+        "dataLimite": "2025-03-21",
+        "dataConclusao": null,
+        "descricao": "Enviar material de suporte para o cliente",
+        "idCliente": 43,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 175,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-23",
+        "dataConclusao": null,
+        "descricao": "Finalizar assinatura do contrato e planejar próximos passos",
+        "idCliente": 43,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 176,
+        "titulo": "Reunião de alinhamento estratégico",
+        "dataLimite": "2025-03-14",
+        "dataConclusao": "2025-03-14",
+        "descricao": "Definir prioridades e metas do cliente",
+        "idCliente": 44,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 177,
+        "titulo": "Envio de proposta personalizada",
+        "dataLimite": "2025-03-16",
+        "dataConclusao": null,
+        "descricao": "Proposta detalhada adaptada ao cliente",
+        "idCliente": 44,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 178,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Verificar interesse e dúvidas do cliente",
+        "idCliente": 44,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 179,
+        "titulo": "Revisão de contrato",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Revisar termos antes da assinatura final",
+        "idCliente": 44,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 180,
+        "titulo": "Envio de material de suporte",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Enviar documentação adicional",
+        "idCliente": 44,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 181,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-24",
+        "dataConclusao": null,
+        "descricao": "Finalizar assinatura e planejar próximos passos",
+        "idCliente": 44,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 182,
+        "titulo": "Reunião de kickoff",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": "2025-03-15",
+        "descricao": "Início oficial do projeto com equipe do cliente",
+        "idCliente": 45,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 183,
+        "titulo": "Envio de proposta inicial",
+        "dataLimite": "2025-03-17",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta conforme briefing recebido",
+        "idCliente": 45,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 184,
+        "titulo": "Follow-up de proposta",
+        "dataLimite": "2025-03-19",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse do cliente na proposta",
+        "idCliente": 45,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 185,
+        "titulo": "Revisão de contrato preliminar",
+        "dataLimite": "2025-03-21",
+        "dataConclusao": null,
+        "descricao": "Revisar cláusulas importantes antes da assinatura",
+        "idCliente": 45,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 186,
+        "titulo": "Envio de documentação complementar",
+        "dataLimite": "2025-03-23",
+        "dataConclusao": null,
+        "descricao": "Enviar material adicional para suporte do cliente",
+        "idCliente": 45,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 187,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-25",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e planejar implementação",
+        "idCliente": 45,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 188,
+        "titulo": "Reunião de alinhamento inicial",
+        "dataLimite": "2025-03-10",
+        "dataConclusao": "2025-03-10",
+        "descricao": "Apresentar equipe e definir escopo do projeto",
+        "idCliente": 46,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 189,
+        "titulo": "Envio de proposta comercial",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta detalhada conforme briefing",
+        "idCliente": 46,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 190,
+        "titulo": "Follow-up de proposta",
+        "dataLimite": "2025-03-14",
+        "dataConclusao": null,
+        "descricao": "Confirmar recepção e interesse do cliente",
+        "idCliente": 46,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 191,
+        "titulo": "Revisão de contrato preliminar",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Revisar contrato antes do envio final",
+        "idCliente": 46,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 192,
+        "titulo": "Envio de documentação complementar",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Enviar material adicional para apoio ao cliente",
+        "idCliente": 46,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 193,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e iniciar implementação",
+        "idCliente": 46,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 194,
+        "titulo": "Kickoff do projeto",
+        "dataLimite": "2025-03-05",
+        "dataConclusao": "2025-03-05",
+        "descricao": "Reunião inicial para definição de prioridades",
+        "idCliente": 47,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 195,
+        "titulo": "Envio de proposta detalhada",
+        "dataLimite": "2025-03-08",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta conforme alinhamento do kickoff",
+        "idCliente": 47,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 196,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse do cliente e dúvidas pendentes",
+        "idCliente": 47,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 197,
+        "titulo": "Reunião de validação de escopo",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Validar escopo final antes da assinatura",
+        "idCliente": 47,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 198,
+        "titulo": "Envio de contrato final",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Enviar contrato revisado e finalizado",
+        "idCliente": 47,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 199,
+        "titulo": "Confirmação de assinatura",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura do contrato e início do projeto",
+        "idCliente": 47,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 200,
+        "titulo": "Reunião de briefing inicial",
+        "dataLimite": "2025-03-07",
+        "dataConclusao": "2025-03-07",
+        "descricao": "Alinhar expectativas do cliente e metas do projeto",
+        "idCliente": 48,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 201,
+        "titulo": "Envio de proposta comercial",
+        "dataLimite": "2025-03-10",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta detalhada com orçamento",
+        "idCliente": 48,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 202,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-14",
+        "dataConclusao": null,
+        "descricao": "Verificar interesse do cliente e dúvidas pendentes",
+        "idCliente": 48,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 203,
+        "titulo": "Revisão de contrato preliminar",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Revisar contrato antes do envio final",
+        "idCliente": 48,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 204,
+        "titulo": "Envio de documentação complementar",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Enviar material adicional para suporte ao cliente",
+        "idCliente": 48,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 205,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e planejar implementação",
+        "idCliente": 48,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 206,
+        "titulo": "Reunião de alinhamento inicial",
+        "dataLimite": "2025-03-08",
+        "dataConclusao": "2025-03-08",
+        "descricao": "Alinhar expectativas do cliente e objetivos do projeto",
+        "idCliente": 49,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 207,
+        "titulo": "Envio de proposta detalhada",
+        "dataLimite": "2025-03-11",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta de soluções personalizadas",
+        "idCliente": 49,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 208,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse e tirar dúvidas",
+        "idCliente": 49,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 209,
+        "titulo": "Revisão de contrato preliminar",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Revisar contrato antes de envio final",
+        "idCliente": 49,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 210,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e iniciar implementação",
+        "idCliente": 49,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 211,
+        "titulo": "Kickoff do projeto",
+        "dataLimite": "2025-03-07",
+        "dataConclusao": "2025-03-07",
+        "descricao": "Apresentação da equipe e início do projeto",
+        "idCliente": 50,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 212,
+        "titulo": "Envio de proposta comercial",
+        "dataLimite": "2025-03-10",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta detalhada com orçamento",
+        "idCliente": 50,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 213,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-14",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse do cliente",
+        "idCliente": 50,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 214,
+        "titulo": "Reunião de validação de escopo",
+        "dataLimite": "2025-03-16",
+        "dataConclusao": null,
+        "descricao": "Validar escopo final do projeto",
+        "idCliente": 50,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 215,
+        "titulo": "Envio de contrato final",
+        "dataLimite": "2025-03-19",
+        "dataConclusao": null,
+        "descricao": "Enviar contrato revisado e finalizado",
+        "idCliente": 50,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 216,
+        "titulo": "Confirmação de assinatura",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura do contrato",
+        "idCliente": 50,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 217,
+        "titulo": "Reunião de briefing inicial",
+        "dataLimite": "2025-03-09",
+        "dataConclusao": "2025-03-09",
+        "descricao": "Alinhar metas do projeto",
+        "idCliente": 51,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 218,
+        "titulo": "Envio de proposta comercial",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta detalhada com orçamento",
+        "idCliente": 51,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 219,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse do cliente",
+        "idCliente": 51,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 220,
+        "titulo": "Revisão de contrato preliminar",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Revisar contrato antes de envio final",
+        "idCliente": 51,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 221,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura do contrato",
+        "idCliente": 51,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 222,
+        "titulo": "Reunião de alinhamento inicial",
+        "dataLimite": "2025-03-10",
+        "dataConclusao": "2025-03-10",
+        "descricao": "Apresentar equipe e objetivos do projeto",
+        "idCliente": 52,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 223,
+        "titulo": "Envio de proposta detalhada",
+        "dataLimite": "2025-03-13",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta comercial personalizada",
+        "idCliente": 52,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 224,
+        "titulo": "Follow-up de interesse",
+        "dataLimite": "2025-03-16",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse e dúvidas",
+        "idCliente": 52,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 225,
+        "titulo": "Reunião de validação de escopo",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Revisar escopo final do projeto",
+        "idCliente": 52,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 226,
+        "titulo": "Envio de contrato final",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Enviar contrato finalizado",
+        "idCliente": 52,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 227,
+        "titulo": "Confirmação de assinatura",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura do contrato",
+        "idCliente": 52,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 228,
+        "titulo": "Reunião de briefing inicial",
+        "dataLimite": "2025-03-11",
+        "dataConclusao": "2025-03-11",
+        "descricao": "Alinhar expectativas do cliente",
+        "idCliente": 53,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 229,
+        "titulo": "Envio de proposta comercial",
+        "dataLimite": "2025-03-14",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta detalhada",
+        "idCliente": 53,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 230,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-17",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse do cliente",
+        "idCliente": 53,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 231,
+        "titulo": "Revisão de contrato preliminar",
+        "dataLimite": "2025-03-19",
+        "dataConclusao": null,
+        "descricao": "Revisar contrato antes de envio final",
+        "idCliente": 53,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 232,
+        "titulo": "Envio de documentação adicional",
+        "dataLimite": "2025-03-21",
+        "dataConclusao": null,
+        "descricao": "Enviar material complementar para apoio",
+        "idCliente": 53,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 233,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-23",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura do contrato",
+        "idCliente": 53,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 234,
+        "titulo": "Reunião de kickoff",
+        "dataLimite": "2025-03-12",
+        "dataConclusao": "2025-03-12",
+        "descricao": "Apresentação da equipe e início do projeto",
+        "idCliente": 54,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 235,
+        "titulo": "Envio de proposta detalhada",
+        "dataLimite": "2025-03-15",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta comercial personalizada",
+        "idCliente": 54,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 236,
+        "titulo": "Follow-up de interesse",
+        "dataLimite": "2025-03-18",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse e dúvidas",
+        "idCliente": 54,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 237,
+        "titulo": "Reunião de validação de escopo",
+        "dataLimite": "2025-03-20",
+        "dataConclusao": null,
+        "descricao": "Revisar escopo final do projeto",
+        "idCliente": 54,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 238,
+        "titulo": "Envio de contrato final",
+        "dataLimite": "2025-03-22",
+        "dataConclusao": null,
+        "descricao": "Enviar contrato finalizado",
+        "idCliente": 54,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 239,
+        "titulo": "Confirmação de assinatura",
+        "dataLimite": "2025-03-24",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura do contrato",
+        "idCliente": 54,
+        "tipo": "email",
+        "status": "A Fazer"
+    },
+    {
+        "id": 240,
+        "titulo": "Reunião de alinhamento inicial",
+        "dataLimite": "2025-03-13",
+        "dataConclusao": "2025-03-13",
+        "descricao": "Alinhar metas e expectativas do cliente",
+        "idCliente": 55,
+        "tipo": "reunião",
+        "status": "Concluído"
+    },
+    {
+        "id": 241,
+        "titulo": "Envio de proposta detalhada",
+        "dataLimite": "2025-03-16",
+        "dataConclusao": null,
+        "descricao": "Enviar proposta comercial personalizada",
+        "idCliente": 55,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 242,
+        "titulo": "Follow-up sobre proposta",
+        "dataLimite": "2025-03-19",
+        "dataConclusao": null,
+        "descricao": "Confirmar interesse do cliente",
+        "idCliente": 55,
+        "tipo": "ligação",
+        "status": "A Fazer"
+    },
+    {
+        "id": 243,
+        "titulo": "Revisão de contrato preliminar",
+        "dataLimite": "2025-03-21",
+        "dataConclusao": null,
+        "descricao": "Revisar contrato antes de envio final",
+        "idCliente": 55,
+        "tipo": "reunião",
+        "status": "A Fazer"
+    },
+    {
+        "id": 244,
+        "titulo": "Envio de documentação complementar",
+        "dataLimite": "2025-03-23",
+        "dataConclusao": null,
+        "descricao": "Enviar material de suporte ao cliente",
+        "idCliente": 55,
+        "tipo": "email",
+        "status": "Em Andamento"
+    },
+    {
+        "id": 245,
+        "titulo": "Confirmação de assinatura final",
+        "dataLimite": "2025-03-25",
+        "dataConclusao": null,
+        "descricao": "Confirmar assinatura e iniciar projeto",
+        "idCliente": 55,
+        "tipo": "email",
+        "status": "A Fazer"
+    }
+]
