@@ -6,8 +6,8 @@ const itensMenu = [
     {label: "Dashboard", navegateTo: "/", icon: <ChartPie/>, IconOnActive: "chart-pie-active"},
     {label: "Clientes", navegateTo: "/clientes", icon: <UsersRound/> , IconOnActive: "users-round-active"},
     {label: "Etapas", navegateTo: "/etapas", icon: <Layers/>, IconOnActive: "layers-active"},
-    {label: "Relatórios", navegateTo: "/relatorios", icon: <FileText/>, IconOnActive: "file-text-active"},
     {label: "Tarefas", navegateTo: "/tarefas", icon: <ListTodo />, IconOnActive: "list-todo-active"},
+    {label: "Relatórios", navegateTo: "/relatorios", icon: <FileText/>, IconOnActive: "file-text-active"},
     {label: "Configurações", navegateTo: "/configuracoes", icon: <Settings/>, IconOnActive: "settings-active"}
 ];
 
