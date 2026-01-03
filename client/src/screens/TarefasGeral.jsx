@@ -5,7 +5,7 @@ import { KanbanBase } from "../components/kanban/KabanBase";
 
 export function TarefasGeral() {
     const { config } = useConfigsUsuario();
-    const { tarefas, carregando, erro, atualizar, atualizarStatus } = useTarefas(0, config.qtItensPag);
+    const { tarefas, carregando, erro, atualizarStatus } = useTarefas(0, config.qtItensPag);
 
     const handleDragEnd = (e) => {
         const { active, over } = e;
@@ -25,9 +25,9 @@ export function TarefasGeral() {
     if (erro) return <p>Erro ao buscar o cliente</p>;
 
     const colunas = [
-        { titulo: "A Fazer", id: "A Fazer", itens: tarefas.pendentes},
-        { titulo: "Em Andamento", id: "Em Andamento", itens: tarefas.andamento},
-        { titulo: "Concluído", id: "Concluído", itens: tarefas.concluidas}
+        { titulo: `A Fazer (${tarefas.pendentes.length})`, id: "A Fazer", itens: tarefas.pendentes},
+        { titulo: `Em Andamento (${tarefas.andamento.length})`, id: "Em Andamento", itens: tarefas.andamento},
+        { titulo: `Concluído (${tarefas.concluidas.length})`, id: "Concluído", itens: tarefas.concluidas}
     ];
 
     const renderizarTarefa = (tarefa) => {
