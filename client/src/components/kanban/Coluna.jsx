@@ -1,15 +1,10 @@
-import { useDroppable } from "@dnd-kit/core";
-
 export function Coluna({ id, children }) {
-    const { setNodeRef } = useDroppable({ id: String(id) });
-
     return (
-    <div 
-        ref={setNodeRef}
-        id={String(id)}
-        className="bg-gray-50 rounded-md p-2 overflow-y-aut"
-    >
-        {children}
-    </div>
+        <div  
+            id={String(id)}
+            className="bg-gray-50 rounded-md p-2 overflow-y-auto max-h-[87vh] overflow-x-hidden"
+        >
+            {children}
+        </div>
     );
 }
