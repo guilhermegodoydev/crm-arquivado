@@ -13,7 +13,7 @@ function App() {
             <AlertaProvider>
                 <div className="flex overflow-x-hidden">
                     <MenuLateral/>   
-                    <main className="ml-14 flex flex-col flex-1 p-4">
+                    <main className="ml-14 flex flex-col flex-1 p-4 min-h-screen">
                         {titulo && 
                             <>
                                 <h1>{titulo}</h1>
