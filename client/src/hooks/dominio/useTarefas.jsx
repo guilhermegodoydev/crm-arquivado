@@ -4,7 +4,7 @@ import { useLocalStorage } from "../utils/useLocalStorage";
 
 export function useTarefas(indexInicio, limite) {
     const { dados: mock, carregando, erro, carregarMais } = useFetch("/mock/tarefas.json");
-    const [ tarefas, setTarefas ] = useLocalStorage("tarefas", { pendentes: [], andamento: [], concluidas: [] });
+    const [ tarefas, setTarefas ] = useLocalStorage("tarefas", { pendente: [], andamento: [], concluida : [] });
     
     useEffect(() => {
         if (!carregando && !erro && mock && Object.values(tarefas).every(itens => itens.length === 0) ) {
@@ -13,41 +13,37 @@ export function useTarefas(indexInicio, limite) {
             const tarefaConcluidas = [];
 
             mock.forEach(tarefa => {
-                const status = tarefa.status.toLowerCase();
-                if (status == "a fazer") tarefasPendentes.push(tarefa);
-                else if (status == "em andamento") tarefasEmAndamento.push(tarefa);
-                else if (status == "concluído") tarefaConcluidas.push(tarefa);
+                const status = tarefa.status;
+                if (status === "pendente") tarefasPendentes.push(tarefa);
+                else if (status === "andamento") tarefasEmAndamento.push(tarefa);
+                else if (status === "concluida") tarefaConcluidas.push(tarefa);
             });
-
+            
             setTarefas({
-                pendentes: tarefasPendentes.slice(indexInicio, limite),
+                pendente: tarefasPendentes.slice(indexInicio, limite),
                 andamento: tarefasEmAndamento.slice(indexInicio, limite),
-                concluidas: tarefaConcluidas.slice(indexInicio, limite),
+                concluida: tarefaConcluidas.slice(indexInicio, limite),
             });
         }
     }, [mock, carregando, erro]);
-
+    
     const listarTarefasCliente = (idCliente) => {
         if (!tarefas) return [];
         const todas = [ ...(tarefas.pendentes || []), ...(tarefas.andamento || []), ...(tarefas.concluidas || []) ];
         return todas.filter(t => t.idCliente == idCliente);
     };  
 
-    const carregarMaisTarefas = () => {
+    const carregarMaisTarefas = (indexInicio, limite) => {
+        //return tarefas.slice(indexInicio, limite);
+    };
+
+    const alterarOrdem = (tarefaId, index) => {
         //
     };
 
-    const chavePorStatus = (status) => {
-        const s = String(status || "").toLowerCase();
-        if (s === "a fazer") return "pendentes";
-        if (s === "em andamento") return "andamento";
-        if (s === "concluído") return "concluidas";
-        return null;
-    };
-
     const atualizarStatus = (tarefaId, statusAtual, novoStatus) => {
-        const blocoAtual = chavePorStatus(statusAtual);
-        const novoBloco = chavePorStatus(novoStatus);
+        const blocoAtual = statusAtual;
+        const novoBloco = novoStatus;
 
         let tarefaAtualizada = tarefas[blocoAtual].find(t => t.id === tarefaId);
         tarefaAtualizada.status = novoStatus;
@@ -59,9 +55,9 @@ export function useTarefas(indexInicio, limite) {
                 novasTarefas[bloco] = tarefas[bloco].filter(t => t.id != tarefaId);
             }
             else if (bloco === novoBloco){
-                if (novoStatus === "concluído") {
+                if (novoStatus === "concluida") {
                     tarefaAtualizada.dataConclusao = new Date().toISOString().split("T")[0];
-                } else if (statusAtual === "concluído") {
+                } else if (statusAtual === "concluida") {
                     tarefaAtualizada.dataConclusao = null;
                 }
                 
@@ -79,5 +75,10 @@ export function useTarefas(indexInicio, limite) {
         //
     };
 
-    return { tarefas, carregando, erro, listarTarefasCliente, carregarMaisTarefas, atualizar, atualizarStatus };
+    const deletar = (tarefaId) => {
+        console.log(tarefaId);
+        setTarefas(prev => Object.keys(prev).flatMap(bloco => prev[bloco]).filter(tarefa => tarefa.id !== tarefaId));
+    };
+
+    return { tarefas, carregando, erro, listarTarefasCliente, carregarMaisTarefas, atualizar, atualizarStatus, deletar };
 }

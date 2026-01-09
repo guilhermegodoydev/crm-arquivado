@@ -7,7 +7,7 @@
         "descricao": "Envio de proposta atualizada",
         "idCliente": 1,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "descricao": "Reunião de alinhamento comercial",
         "idCliente": 1,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "descricao": "Confirmação de detalhes do contrato",
         "idCliente": 1,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "descricao": "Material sobre novos pacotes de expansão",
         "idCliente": 1,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "descricao": "Apresentação inicial",
         "idCliente": 2,
         "tipo": "ligação",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
         "descricao": "Abertura do relacionamento",
         "idCliente": 2,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
         "descricao": "Proposta detalhada conforme preferências do cliente",
         "idCliente": 2,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
         "descricao": "Revisão de contrato",
         "idCliente": 3,
         "tipo": "ligação",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@
         "descricao": "Proposta enviada",
         "idCliente": 3,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@
         "descricao": "Cliente confirmou recebimento do documento",
         "idCliente": 3,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 11,
@@ -107,7 +107,7 @@
         "descricao": "Discussão sobre integrações",
         "idCliente": 4,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 12,
@@ -117,7 +117,7 @@
         "descricao": "Envio de documentação técnica",
         "idCliente": 4,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 13,
@@ -127,7 +127,7 @@
         "descricao": "Verificação de andamento da integração",
         "idCliente": 4,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 14,
@@ -137,7 +137,7 @@
         "descricao": "Treinamento da equipe sobre novas integrações",
         "idCliente": 4,
         "tipo": "reunião",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 15,
@@ -147,7 +147,7 @@
         "descricao": "Confirmação de interesse",
         "idCliente": 5,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 16,
@@ -157,7 +157,7 @@
         "descricao": "Apresentação de serviços",
         "idCliente": 5,
         "tipo": "ligação",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 17,
@@ -167,7 +167,7 @@
         "descricao": "Proposta com novos pacotes para avaliação",
         "idCliente": 5,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 18,
@@ -177,7 +177,7 @@
         "descricao": "Negociação de contrato anual",
         "idCliente": 6,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 19,
@@ -187,7 +187,7 @@
         "descricao": "Envio de proposta preliminar",
         "idCliente": 6,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 20,
@@ -197,7 +197,7 @@
         "descricao": "Verificação de alinhamento do contrato anual",
         "idCliente": 6,
         "tipo": "ligação",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 21,
@@ -207,7 +207,7 @@
         "descricao": "Esclarecimento sobre funcionalidades",
         "idCliente": 7,
         "tipo": "ligação",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 22,
@@ -217,7 +217,7 @@
         "descricao": "Envio de tutorial inicial",
         "idCliente": 7,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 23,
@@ -227,7 +227,7 @@
         "descricao": "Verificar entendimento das funcionalidades apresentadas",
         "idCliente": 7,
         "tipo": "ligação",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 24,
@@ -237,7 +237,7 @@
         "descricao": "Discussão sobre novas funcionalidades",
         "idCliente": 8,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 25,
@@ -247,7 +247,7 @@
         "descricao": "Envio de proposta detalhada",
         "idCliente": 8,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 26,
@@ -257,7 +257,7 @@
         "descricao": "Confirmar interesse nas novas funcionalidades propostas",
         "idCliente": 8,
         "tipo": "ligação",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 27,
@@ -267,7 +267,7 @@
         "descricao": "Confirmação de renovação de contrato",
         "idCliente": 9,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 28,
@@ -277,7 +277,7 @@
         "descricao": "Esclarecimento sobre novos pacotes",
         "idCliente": 9,
         "tipo": "ligação",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 29,
@@ -287,7 +287,7 @@
         "descricao": "Proposta de planos avançados para análise",
         "idCliente": 9,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 30,
@@ -297,7 +297,7 @@
         "descricao": "Apresentação de novos serviços",
         "idCliente": 10,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 31,
@@ -307,7 +307,7 @@
         "descricao": "Envio de material adicional",
         "idCliente": 10,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 32,
@@ -317,7 +317,7 @@
         "descricao": "Verificar interesse e dúvidas sobre os novos serviços apresentados",
         "idCliente": 10,
         "tipo": "ligação",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 33,
@@ -327,7 +327,7 @@
         "descricao": "Alinhar todos os pontos do contrato e próximos passos",
         "idCliente": 10,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 34,
@@ -337,7 +337,7 @@
         "descricao": "Atualização sobre serviços de logística",
         "idCliente": 11,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 35,
@@ -347,7 +347,7 @@
         "descricao": "Verificação de novos pacotes",
         "idCliente": 11,
         "tipo": "ligação",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 36,
@@ -357,7 +357,7 @@
         "descricao": "Verificar se há possibilidade de redução de custos",
         "idCliente": 11,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 37,
@@ -367,7 +367,7 @@
         "descricao": "Definir próximos passos para otimização de transporte",
         "idCliente": 11,
         "tipo": "reunião",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 38,
@@ -377,7 +377,7 @@
         "descricao": "Discussão sobre ampliação de contrato",
         "idCliente": 12,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 39,
@@ -387,7 +387,7 @@
         "descricao": "Proposta enviada com novos pacotes",
         "idCliente": 12,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 40,
@@ -397,7 +397,7 @@
         "descricao": "Verificar interesse em expansão para outras regiões",
         "idCliente": 12,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 41,
@@ -407,7 +407,7 @@
         "descricao": "Alinhar objetivos e equipe do projeto",
         "idCliente": 13,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 42,
@@ -417,7 +417,7 @@
         "descricao": "Documentação técnica do projeto enviada",
         "idCliente": 13,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 43,
@@ -427,7 +427,7 @@
         "descricao": "Confirmar entendimento da documentação enviada",
         "idCliente": 13,
         "tipo": "ligação",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 44,
@@ -437,7 +437,7 @@
         "descricao": "Revisar todos os requisitos do projeto com o cliente",
         "idCliente": 14,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 45,
@@ -447,7 +447,7 @@
         "descricao": "Proposta detalhada para integração de sistemas",
         "idCliente": 14,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 46,
@@ -457,7 +457,7 @@
         "descricao": "Confirmar interesse do cliente na proposta de integração",
         "idCliente": 14,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 47,
@@ -467,7 +467,7 @@
         "descricao": "Apresentar resultados do último trimestre",
         "idCliente": 15,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 48,
@@ -477,7 +477,7 @@
         "descricao": "Enviar relatório completo por email",
         "idCliente": 15,
         "tipo": "email",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 49,
@@ -487,7 +487,7 @@
         "descricao": "Verificar dúvidas ou solicitações adicionais do cliente",
         "idCliente": 15,
         "tipo": "ligação",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 50,
@@ -497,7 +497,7 @@
         "descricao": "Definir metas e estratégias para o próximo ano",
         "idCliente": 16,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 51,
@@ -507,7 +507,7 @@
         "descricao": "Proposta detalhada conforme necessidades de expansão",
         "idCliente": 16,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 52,
@@ -517,7 +517,7 @@
         "descricao": "Verificar interesse e dúvidas do cliente",
         "idCliente": 16,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 53,
@@ -527,7 +527,7 @@
         "descricao": "Alinhar condições finais do contrato",
         "idCliente": 17,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 54,
@@ -537,7 +537,7 @@
         "descricao": "Enviar contrato assinado para registro",
         "idCliente": 17,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 55,
@@ -547,7 +547,7 @@
         "descricao": "Confirmar recebimento e dúvidas do cliente",
         "idCliente": 17,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 56,
@@ -557,7 +557,7 @@
         "descricao": "Alinhar objetivos de expansão da plataforma",
         "idCliente": 18,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 57,
@@ -567,7 +567,7 @@
         "descricao": "Proposta detalhada para novos recursos e usuários",
         "idCliente": 18,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 58,
@@ -577,7 +577,7 @@
         "descricao": "Confirmar interesse e próximos passos",
         "idCliente": 18,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 59,
@@ -587,7 +587,7 @@
         "descricao": "Apresentar opções de novos acordos e parcerias",
         "idCliente": 19,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 60,
@@ -597,7 +597,7 @@
         "descricao": "Enviar proposta detalhada para análise",
         "idCliente": 19,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 61,
@@ -607,7 +607,7 @@
         "descricao": "Verificar dúvidas e aprovação do cliente",
         "idCliente": 19,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 62,
@@ -617,7 +617,7 @@
         "descricao": "Alinhar estratégias de capacitação online",
         "idCliente": 20,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 63,
@@ -627,7 +627,7 @@
         "descricao": "Proposta detalhada para expansão da plataforma",
         "idCliente": 20,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 64,
@@ -637,7 +637,7 @@
         "descricao": "Confirmar interesse e próximos passos",
         "idCliente": 20,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 65,
@@ -647,7 +647,7 @@
         "descricao": "Alinhar objetivos iniciais do projeto",
         "idCliente": 21,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 66,
@@ -657,7 +657,7 @@
         "descricao": "Enviar briefing detalhado para aprovação",
         "idCliente": 21,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 67,
@@ -667,7 +667,7 @@
         "descricao": "Confirmar recebimento e esclarecimentos",
         "idCliente": 21,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 68,
@@ -677,7 +677,7 @@
         "descricao": "Validar estratégia proposta para novos serviços",
         "idCliente": 22,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 69,
@@ -687,7 +687,7 @@
         "descricao": "Proposta final com ajustes solicitados",
         "idCliente": 22,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 70,
@@ -697,7 +697,7 @@
         "descricao": "Confirmar aprovação da proposta final",
         "idCliente": 22,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 71,
@@ -707,7 +707,7 @@
         "descricao": "Apresentar roadmap de implementação de soluções",
         "idCliente": 23,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 72,
@@ -717,7 +717,7 @@
         "descricao": "Enviar documentação técnica detalhada",
         "idCliente": 23,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 73,
@@ -727,7 +727,7 @@
         "descricao": "Verificar andamento da implementação",
         "idCliente": 23,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 74,
@@ -737,7 +737,7 @@
         "descricao": "Planejar próximos passos do projeto conjunto",
         "idCliente": 24,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 75,
@@ -747,7 +747,7 @@
         "descricao": "Proposta detalhada com melhorias sugeridas",
         "idCliente": 24,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 76,
@@ -757,7 +757,7 @@
         "descricao": "Confirmar aceitação das melhorias propostas",
         "idCliente": 24,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 77,
@@ -767,7 +767,7 @@
         "descricao": "Alinhar expectativas e objetivos do projeto",
         "idCliente": 25,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 78,
@@ -777,7 +777,7 @@
         "descricao": "Enviar proposta detalhada conforme requisitos do cliente",
         "idCliente": 25,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 79,
@@ -787,7 +787,7 @@
         "descricao": "Confirmar recebimento e esclarecimentos da proposta",
         "idCliente": 25,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 80,
@@ -797,7 +797,7 @@
         "descricao": "Validar plano de ação com o cliente",
         "idCliente": 25,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 81,
@@ -807,7 +807,7 @@
         "descricao": "Enviar documentação de suporte ao cliente",
         "idCliente": 26,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 82,
@@ -817,7 +817,7 @@
         "descricao": "Verificar entendimento e dúvidas do cliente",
         "idCliente": 26,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 83,
@@ -827,7 +827,7 @@
         "descricao": "Apresentar resultados iniciais do projeto",
         "idCliente": 26,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 84,
@@ -837,7 +837,7 @@
         "descricao": "Enviar ajustes solicitados pelo cliente",
         "idCliente": 26,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 85,
@@ -847,7 +847,7 @@
         "descricao": "Alinhar próximos passos após ajustes",
         "idCliente": 27,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 86,
@@ -857,7 +857,7 @@
         "descricao": "Enviar proposta inicial para análise do cliente",
         "idCliente": 27,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 87,
@@ -867,7 +867,7 @@
         "descricao": "Confirmar aprovação da proposta inicial",
         "idCliente": 27,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 88,
@@ -877,7 +877,7 @@
         "descricao": "Alinhar objetivos do projeto com o cliente",
         "idCliente": 28,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 89,
@@ -887,7 +887,7 @@
         "descricao": "Enviar proposta conforme necessidades levantadas",
         "idCliente": 28,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 90,
@@ -897,7 +897,7 @@
         "descricao": "Confirmar recebimento e tirar dúvidas do cliente",
         "idCliente": 28,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 91,
@@ -907,7 +907,7 @@
         "descricao": "Validar escopo do projeto antes do início",
         "idCliente": 28,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 92,
@@ -917,7 +917,7 @@
         "descricao": "Enviar documentação técnica de suporte",
         "idCliente": 28,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 93,
@@ -927,7 +927,7 @@
         "descricao": "Definir prioridades e cronograma inicial",
         "idCliente": 29,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 94,
@@ -937,7 +937,7 @@
         "descricao": "Enviar proposta detalhada conforme necessidades do cliente",
         "idCliente": 29,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 95,
@@ -947,7 +947,7 @@
         "descricao": "Verificar interesse e esclarecer dúvidas",
         "idCliente": 29,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 96,
@@ -957,7 +957,7 @@
         "descricao": "Confirmar viabilidade técnica do projeto",
         "idCliente": 29,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 97,
@@ -967,7 +967,7 @@
         "descricao": "Fornecer documentação técnica adicional",
         "idCliente": 29,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 98,
@@ -977,7 +977,7 @@
         "descricao": "Demonstrar os novos serviços disponíveis",
         "idCliente": 30,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 99,
@@ -987,7 +987,7 @@
         "descricao": "Enviar material complementar sobre os serviços",
         "idCliente": 30,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 100,
@@ -997,7 +997,7 @@
         "descricao": "Verificar interesse e dúvidas do cliente",
         "idCliente": 30,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 101,
@@ -1007,7 +1007,7 @@
         "descricao": "Discutir termos e condições do contrato",
         "idCliente": 30,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 102,
@@ -1017,7 +1017,7 @@
         "descricao": "Enviar proposta com serviços recomendados",
         "idCliente": 31,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 103,
@@ -1027,7 +1027,7 @@
         "descricao": "Alinhar objetivos do projeto e expectativas",
         "idCliente": 31,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 104,
@@ -1037,7 +1037,7 @@
         "descricao": "Confirmar recebimento e tirar dúvidas",
         "idCliente": 31,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 105,
@@ -1047,7 +1047,7 @@
         "descricao": "Enviar materiais explicativos sobre os serviços",
         "idCliente": 31,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 106,
@@ -1057,7 +1057,7 @@
         "descricao": "Revisar termos antes da assinatura",
         "idCliente": 31,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 107,
@@ -1067,7 +1067,7 @@
         "descricao": "Confirmar assinatura do contrato e próximos passos",
         "idCliente": 31,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 108,
@@ -1077,7 +1077,7 @@
         "descricao": "Propor novos pacotes e serviços adicionais",
         "idCliente": 32,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 109,
@@ -1087,7 +1087,7 @@
         "descricao": "Apresentar opções de expansão e benefícios",
         "idCliente": 32,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 110,
@@ -1097,7 +1097,7 @@
         "descricao": "Confirmar quais pacotes são de interesse",
         "idCliente": 32,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 111,
@@ -1107,7 +1107,7 @@
         "descricao": "Enviar documentação explicativa",
         "idCliente": 32,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 112,
@@ -1117,7 +1117,7 @@
         "descricao": "Discutir ajustes finais antes da assinatura",
         "idCliente": 32,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 113,
@@ -1127,7 +1127,7 @@
         "descricao": "Confirmar assinatura do contrato",
         "idCliente": 32,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 114,
@@ -1137,7 +1137,7 @@
         "descricao": "Coletar informações iniciais sobre necessidades do cliente",
         "idCliente": 33,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 115,
@@ -1147,7 +1147,7 @@
         "descricao": "Apresentar proposta inicial de serviços",
         "idCliente": 33,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 116,
@@ -1157,7 +1157,7 @@
         "descricao": "Confirmar dúvidas e interesse",
         "idCliente": 33,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 117,
@@ -1167,7 +1167,7 @@
         "descricao": "Revisar condições e cláusulas",
         "idCliente": 33,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 118,
@@ -1177,7 +1177,7 @@
         "descricao": "Confirmar assinatura e início dos serviços",
         "idCliente": 33,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 119,
@@ -1187,7 +1187,7 @@
         "descricao": "Enviar proposta detalhada com pacotes recomendados",
         "idCliente": 34,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 120,
@@ -1197,7 +1197,7 @@
         "descricao": "Alinhar expectativas e prioridades do cliente",
         "idCliente": 34,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 121,
@@ -1207,7 +1207,7 @@
         "descricao": "Verificar dúvidas e interesse do cliente",
         "idCliente": 34,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 122,
@@ -1217,7 +1217,7 @@
         "descricao": "Enviar materiais complementares sobre serviços",
         "idCliente": 34,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 123,
@@ -1227,7 +1227,7 @@
         "descricao": "Revisar termos e condições antes da assinatura",
         "idCliente": 34,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 124,
@@ -1237,7 +1237,7 @@
         "descricao": "Confirmar assinatura e próximos passos",
         "idCliente": 34,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 125,
@@ -1247,7 +1247,7 @@
         "descricao": "Apresentar pacotes adicionais e benefícios",
         "idCliente": 35,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 126,
@@ -1257,7 +1257,7 @@
         "descricao": "Apresentar opções de expansão e discutir necessidades",
         "idCliente": 35,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 127,
@@ -1267,7 +1267,7 @@
         "descricao": "Verificar quais pacotes são de interesse",
         "idCliente": 35,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 128,
@@ -1277,7 +1277,7 @@
         "descricao": "Enviar documentação explicativa",
         "idCliente": 35,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 129,
@@ -1287,7 +1287,7 @@
         "descricao": "Revisar condições antes da assinatura final",
         "idCliente": 35,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 130,
@@ -1297,7 +1297,7 @@
         "descricao": "Confirmar assinatura do contrato e início dos serviços",
         "idCliente": 35,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 131,
@@ -1307,7 +1307,7 @@
         "descricao": "Coletar informações sobre o projeto do cliente",
         "idCliente": 36,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 132,
@@ -1317,7 +1317,7 @@
         "descricao": "Apresentar proposta inicial de serviços",
         "idCliente": 36,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 133,
@@ -1327,7 +1327,7 @@
         "descricao": "Confirmar dúvidas e interesse do cliente",
         "idCliente": 36,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 134,
@@ -1337,7 +1337,7 @@
         "descricao": "Revisar condições e cláusulas",
         "idCliente": 36,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 135,
@@ -1347,7 +1347,7 @@
         "descricao": "Confirmar assinatura e início dos serviços",
         "idCliente": 36,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     }, 
     {
         "id": 136,
@@ -1357,7 +1357,7 @@
         "descricao": "Enviar proposta detalhada com pacotes sugeridos",
         "idCliente": 37,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 137,
@@ -1367,7 +1367,7 @@
         "descricao": "Discutir necessidades específicas do cliente",
         "idCliente": 37,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 138,
@@ -1377,7 +1377,7 @@
         "descricao": "Verificar interesse e esclarecimento de dúvidas",
         "idCliente": 37,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 139,
@@ -1387,7 +1387,7 @@
         "descricao": "Enviar material de apoio sobre pacotes",
         "idCliente": 37,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 140,
@@ -1397,7 +1397,7 @@
         "descricao": "Revisar contrato inicial antes da assinatura",
         "idCliente": 37,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 141,
@@ -1407,7 +1407,7 @@
         "descricao": "Confirmar assinatura e próximos passos",
         "idCliente": 37,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 142,
@@ -1417,7 +1417,7 @@
         "descricao": "Coletar informações sobre projeto do cliente",
         "idCliente": 38,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 143,
@@ -1427,7 +1427,7 @@
         "descricao": "Enviar proposta de acordo com necessidades levantadas",
         "idCliente": 38,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 144,
@@ -1437,7 +1437,7 @@
         "descricao": "Confirmar interesse do cliente e esclarecer dúvidas",
         "idCliente": 38,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 145,
@@ -1447,7 +1447,7 @@
         "descricao": "Revisar contrato antes da assinatura final",
         "idCliente": 38,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 146,
@@ -1457,7 +1457,7 @@
         "descricao": "Confirmar assinatura e iniciar implementação",
         "idCliente": 38,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 147,
@@ -1467,7 +1467,7 @@
         "descricao": "Enviar proposta de serviços personalizados",
         "idCliente": 39,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 148,
@@ -1477,7 +1477,7 @@
         "descricao": "Discutir expectativas do cliente e prioridades",
         "idCliente": 39,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 149,
@@ -1487,7 +1487,7 @@
         "descricao": "Verificar interesse do cliente e esclarecer dúvidas",
         "idCliente": 39,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 150,
@@ -1497,7 +1497,7 @@
         "descricao": "Enviar materiais explicativos sobre serviços",
         "idCliente": 39,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 151,
@@ -1507,7 +1507,7 @@
         "descricao": "Revisar termos iniciais antes da assinatura",
         "idCliente": 39,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 152,
@@ -1517,7 +1517,7 @@
         "descricao": "Início do projeto e alinhamento de expectativas",
         "idCliente": 40,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 153,
@@ -1527,7 +1527,7 @@
         "descricao": "Enviar proposta de serviços adaptados às necessidades",
         "idCliente": 40,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 154,
@@ -1537,7 +1537,7 @@
         "descricao": "Confirmar interesse e esclarecer dúvidas",
         "idCliente": 40,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 155,
@@ -1547,7 +1547,7 @@
         "descricao": "Revisar termos antes da assinatura final",
         "idCliente": 40,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 156,
@@ -1557,7 +1557,7 @@
         "descricao": "Confirmar assinatura e próximos passos do projeto",
         "idCliente": 40,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 157,
@@ -1567,7 +1567,7 @@
         "descricao": "Enviar material de suporte para o cliente",
         "idCliente": 40,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 158,
@@ -1577,7 +1577,7 @@
         "descricao": "Definir metas e prioridades do cliente",
         "idCliente": 41,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 159,
@@ -1587,7 +1587,7 @@
         "descricao": "Proposta detalhada conforme briefing",
         "idCliente": 41,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 160,
@@ -1597,7 +1597,7 @@
         "descricao": "Confirmar interesse do cliente",
         "idCliente": 41,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 161,
@@ -1607,7 +1607,7 @@
         "descricao": "Verificar pontos importantes antes da assinatura",
         "idCliente": 41,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 162,
@@ -1617,7 +1617,7 @@
         "descricao": "Enviar material adicional para suporte",
         "idCliente": 41,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 163,
@@ -1627,7 +1627,7 @@
         "descricao": "Confirmar assinatura e planejar implementação",
         "idCliente": 41,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 164,
@@ -1637,7 +1637,7 @@
         "descricao": "Alinhar expectativas do cliente",
         "idCliente": 42,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 165,
@@ -1647,7 +1647,7 @@
         "descricao": "Proposta com pacotes personalizados",
         "idCliente": 42,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 166,
@@ -1657,7 +1657,7 @@
         "descricao": "Verificar interesse e dúvidas",
         "idCliente": 42,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 167,
@@ -1667,7 +1667,7 @@
         "descricao": "Revisar cláusulas importantes antes da assinatura",
         "idCliente": 42,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 168,
@@ -1677,7 +1677,7 @@
         "descricao": "Enviar material adicional para suporte do cliente",
         "idCliente": 42,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 169,
@@ -1687,7 +1687,7 @@
         "descricao": "Confirmar assinatura e planejar implementação",
         "idCliente": 42,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 170,
@@ -1697,7 +1697,7 @@
         "descricao": "Início oficial do projeto com equipe do cliente",
         "idCliente": 43,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 171,
@@ -1707,7 +1707,7 @@
         "descricao": "Enviar proposta conforme briefing recebido",
         "idCliente": 43,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 172,
@@ -1717,7 +1717,7 @@
         "descricao": "Confirmar interesse do cliente na proposta",
         "idCliente": 43,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 173,
@@ -1727,7 +1727,7 @@
         "descricao": "Revisar contrato antes da assinatura final",
         "idCliente": 43,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 174,
@@ -1737,7 +1737,7 @@
         "descricao": "Enviar material de suporte para o cliente",
         "idCliente": 43,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 175,
@@ -1747,7 +1747,7 @@
         "descricao": "Finalizar assinatura do contrato e planejar próximos passos",
         "idCliente": 43,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 176,
@@ -1757,7 +1757,7 @@
         "descricao": "Definir prioridades e metas do cliente",
         "idCliente": 44,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 177,
@@ -1767,7 +1767,7 @@
         "descricao": "Proposta detalhada adaptada ao cliente",
         "idCliente": 44,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 178,
@@ -1777,7 +1777,7 @@
         "descricao": "Verificar interesse e dúvidas do cliente",
         "idCliente": 44,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 179,
@@ -1787,7 +1787,7 @@
         "descricao": "Revisar termos antes da assinatura final",
         "idCliente": 44,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 180,
@@ -1797,7 +1797,7 @@
         "descricao": "Enviar documentação adicional",
         "idCliente": 44,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 181,
@@ -1807,7 +1807,7 @@
         "descricao": "Finalizar assinatura e planejar próximos passos",
         "idCliente": 44,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 182,
@@ -1817,7 +1817,7 @@
         "descricao": "Início oficial do projeto com equipe do cliente",
         "idCliente": 45,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 183,
@@ -1827,7 +1827,7 @@
         "descricao": "Enviar proposta conforme briefing recebido",
         "idCliente": 45,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 184,
@@ -1837,7 +1837,7 @@
         "descricao": "Confirmar interesse do cliente na proposta",
         "idCliente": 45,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 185,
@@ -1847,7 +1847,7 @@
         "descricao": "Revisar cláusulas importantes antes da assinatura",
         "idCliente": 45,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 186,
@@ -1857,7 +1857,7 @@
         "descricao": "Enviar material adicional para suporte do cliente",
         "idCliente": 45,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 187,
@@ -1867,7 +1867,7 @@
         "descricao": "Confirmar assinatura e planejar implementação",
         "idCliente": 45,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 188,
@@ -1877,7 +1877,7 @@
         "descricao": "Apresentar equipe e definir escopo do projeto",
         "idCliente": 46,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 189,
@@ -1887,7 +1887,7 @@
         "descricao": "Enviar proposta detalhada conforme briefing",
         "idCliente": 46,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 190,
@@ -1897,7 +1897,7 @@
         "descricao": "Confirmar recepção e interesse do cliente",
         "idCliente": 46,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 191,
@@ -1907,7 +1907,7 @@
         "descricao": "Revisar contrato antes do envio final",
         "idCliente": 46,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 192,
@@ -1917,7 +1917,7 @@
         "descricao": "Enviar material adicional para apoio ao cliente",
         "idCliente": 46,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 193,
@@ -1927,7 +1927,7 @@
         "descricao": "Confirmar assinatura e iniciar implementação",
         "idCliente": 46,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 194,
@@ -1937,7 +1937,7 @@
         "descricao": "Reunião inicial para definição de prioridades",
         "idCliente": 47,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 195,
@@ -1947,7 +1947,7 @@
         "descricao": "Enviar proposta conforme alinhamento do kickoff",
         "idCliente": 47,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 196,
@@ -1957,7 +1957,7 @@
         "descricao": "Confirmar interesse do cliente e dúvidas pendentes",
         "idCliente": 47,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 197,
@@ -1967,7 +1967,7 @@
         "descricao": "Validar escopo final antes da assinatura",
         "idCliente": 47,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 198,
@@ -1977,7 +1977,7 @@
         "descricao": "Enviar contrato revisado e finalizado",
         "idCliente": 47,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 199,
@@ -1987,7 +1987,7 @@
         "descricao": "Confirmar assinatura do contrato e início do projeto",
         "idCliente": 47,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 200,
@@ -1997,7 +1997,7 @@
         "descricao": "Alinhar expectativas do cliente e metas do projeto",
         "idCliente": 48,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 201,
@@ -2007,7 +2007,7 @@
         "descricao": "Enviar proposta detalhada com orçamento",
         "idCliente": 48,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 202,
@@ -2017,7 +2017,7 @@
         "descricao": "Verificar interesse do cliente e dúvidas pendentes",
         "idCliente": 48,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 203,
@@ -2027,7 +2027,7 @@
         "descricao": "Revisar contrato antes do envio final",
         "idCliente": 48,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 204,
@@ -2037,7 +2037,7 @@
         "descricao": "Enviar material adicional para suporte ao cliente",
         "idCliente": 48,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 205,
@@ -2047,7 +2047,7 @@
         "descricao": "Confirmar assinatura e planejar implementação",
         "idCliente": 48,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 206,
@@ -2057,7 +2057,7 @@
         "descricao": "Alinhar expectativas do cliente e objetivos do projeto",
         "idCliente": 49,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 207,
@@ -2067,7 +2067,7 @@
         "descricao": "Enviar proposta de soluções personalizadas",
         "idCliente": 49,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 208,
@@ -2077,7 +2077,7 @@
         "descricao": "Confirmar interesse e tirar dúvidas",
         "idCliente": 49,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 209,
@@ -2087,7 +2087,7 @@
         "descricao": "Revisar contrato antes de envio final",
         "idCliente": 49,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 210,
@@ -2097,7 +2097,7 @@
         "descricao": "Confirmar assinatura e iniciar implementação",
         "idCliente": 49,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 211,
@@ -2107,7 +2107,7 @@
         "descricao": "Apresentação da equipe e início do projeto",
         "idCliente": 50,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 212,
@@ -2117,7 +2117,7 @@
         "descricao": "Enviar proposta detalhada com orçamento",
         "idCliente": 50,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 213,
@@ -2127,7 +2127,7 @@
         "descricao": "Confirmar interesse do cliente",
         "idCliente": 50,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 214,
@@ -2137,7 +2137,7 @@
         "descricao": "Validar escopo final do projeto",
         "idCliente": 50,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 215,
@@ -2147,7 +2147,7 @@
         "descricao": "Enviar contrato revisado e finalizado",
         "idCliente": 50,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 216,
@@ -2157,7 +2157,7 @@
         "descricao": "Confirmar assinatura do contrato",
         "idCliente": 50,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 217,
@@ -2167,7 +2167,7 @@
         "descricao": "Alinhar metas do projeto",
         "idCliente": 51,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 218,
@@ -2177,7 +2177,7 @@
         "descricao": "Enviar proposta detalhada com orçamento",
         "idCliente": 51,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 219,
@@ -2187,7 +2187,7 @@
         "descricao": "Confirmar interesse do cliente",
         "idCliente": 51,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 220,
@@ -2197,7 +2197,7 @@
         "descricao": "Revisar contrato antes de envio final",
         "idCliente": 51,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 221,
@@ -2207,7 +2207,7 @@
         "descricao": "Confirmar assinatura do contrato",
         "idCliente": 51,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 222,
@@ -2217,7 +2217,7 @@
         "descricao": "Apresentar equipe e objetivos do projeto",
         "idCliente": 52,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 223,
@@ -2227,7 +2227,7 @@
         "descricao": "Enviar proposta comercial personalizada",
         "idCliente": 52,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 224,
@@ -2237,7 +2237,7 @@
         "descricao": "Confirmar interesse e dúvidas",
         "idCliente": 52,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 225,
@@ -2247,7 +2247,7 @@
         "descricao": "Revisar escopo final do projeto",
         "idCliente": 52,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 226,
@@ -2257,7 +2257,7 @@
         "descricao": "Enviar contrato finalizado",
         "idCliente": 52,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 227,
@@ -2267,7 +2267,7 @@
         "descricao": "Confirmar assinatura do contrato",
         "idCliente": 52,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 228,
@@ -2277,7 +2277,7 @@
         "descricao": "Alinhar expectativas do cliente",
         "idCliente": 53,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 229,
@@ -2287,7 +2287,7 @@
         "descricao": "Enviar proposta detalhada",
         "idCliente": 53,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 230,
@@ -2297,7 +2297,7 @@
         "descricao": "Confirmar interesse do cliente",
         "idCliente": 53,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 231,
@@ -2307,7 +2307,7 @@
         "descricao": "Revisar contrato antes de envio final",
         "idCliente": 53,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 232,
@@ -2317,7 +2317,7 @@
         "descricao": "Enviar material complementar para apoio",
         "idCliente": 53,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 233,
@@ -2327,7 +2327,7 @@
         "descricao": "Confirmar assinatura do contrato",
         "idCliente": 53,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 234,
@@ -2337,7 +2337,7 @@
         "descricao": "Apresentação da equipe e início do projeto",
         "idCliente": 54,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 235,
@@ -2347,7 +2347,7 @@
         "descricao": "Enviar proposta comercial personalizada",
         "idCliente": 54,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 236,
@@ -2357,7 +2357,7 @@
         "descricao": "Confirmar interesse e dúvidas",
         "idCliente": 54,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 237,
@@ -2367,7 +2367,7 @@
         "descricao": "Revisar escopo final do projeto",
         "idCliente": 54,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 238,
@@ -2377,7 +2377,7 @@
         "descricao": "Enviar contrato finalizado",
         "idCliente": 54,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 239,
@@ -2387,7 +2387,7 @@
         "descricao": "Confirmar assinatura do contrato",
         "idCliente": 54,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 240,
@@ -2397,7 +2397,7 @@
         "descricao": "Alinhar metas e expectativas do cliente",
         "idCliente": 55,
         "tipo": "reunião",
-        "status": "Concluído"
+        "status": "concluida"
     },
     {
         "id": 241,
@@ -2407,7 +2407,7 @@
         "descricao": "Enviar proposta comercial personalizada",
         "idCliente": 55,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 242,
@@ -2417,7 +2417,7 @@
         "descricao": "Confirmar interesse do cliente",
         "idCliente": 55,
         "tipo": "ligação",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 243,
@@ -2427,7 +2427,7 @@
         "descricao": "Revisar contrato antes de envio final",
         "idCliente": 55,
         "tipo": "reunião",
-        "status": "A Fazer"
+        "status": "pendente"
     },
     {
         "id": 244,
@@ -2437,7 +2437,7 @@
         "descricao": "Enviar material de suporte ao cliente",
         "idCliente": 55,
         "tipo": "email",
-        "status": "Em Andamento"
+        "status": "andamento"
     },
     {
         "id": 245,
@@ -2447,6 +2447,6 @@
         "descricao": "Confirmar assinatura e iniciar projeto",
         "idCliente": 55,
         "tipo": "email",
-        "status": "A Fazer"
+        "status": "pendente"
     }
 ]
