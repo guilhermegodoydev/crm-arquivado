@@ -38,6 +38,15 @@
     .container-grafico {
         @apply text-center;
     }
+
+}
+
+::-webkit-scrollbar {
+    @apply w-2 bg-white;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 rounded;
 }
 
 .loader {
@@ -71,4 +80,19 @@
     background-size: 8px 100%,8px 4px, 8px 4px,8px 100%,8px 4px,8px 4px,8px 100%,8px 4px,8px 4px;
     background-position: 0 50%,0 calc(0% - 2px),0 calc(100% + 2px),50% 50%,50% calc(0% - 2px),50% calc(100% + 2px),100% 50%,100% calc(0% - 2px),100% calc(100% + 2px);
  }
+}
+
+@keyframes openDrawer {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}       
+
+@keyframes closeDrawer {
+    to {
+        transform: translateY(100%);
+    }
 }
