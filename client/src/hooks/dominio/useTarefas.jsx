@@ -77,12 +77,12 @@ export function useTarefas(indexInicio, limite) {
 
     const deletar = (tarefaId) => {
         setTarefas(prev => {
-            const newTasks = Object.entries(prev).map(([chave, valor]) => {
+            const novasTarefas = Object.entries(prev).map(([chave, valor]) => {
                 const novoValor = valor.filter(tarefa => tarefa.id !== tarefaId);
                 return [chave, novoValor];
             });
 
-            return Object.fromEntries(newTasks);
+            return Object.fromEntries(novasTarefas);
         });
     };
 
